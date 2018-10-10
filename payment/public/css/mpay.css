@@ -1,0 +1,187 @@
+/*确认订单*/
+.payment_page_pic{
+
+}
+.payment_page_pic img{
+    width:100%;
+    vertical-align: top;
+}
+.confirm_order_msg, .payway, .integral{
+    margin-bottom:0.266667rem;
+    background:#fff;
+    box-shadow:0 1px 3px #e5e5e5
+}
+.confirm_order_msg dl{
+    display:-webkit-box;
+    padding:0.2rem;
+    margin:0;
+    border-bottom:1px solid #f3f3f3
+}
+.confirm_order_msg dl{
+    display:-webkit-box;
+    padding:0.2rem;
+    border-bottom:1px solid #f3f3f3}
+.confirm_order_msg dl dt{
+    width:3rem;
+    height:2rem}
+.confirm_order_msg dl dt img{
+    width:100%;
+    height:100%}
+.confirm_order_msg dl dd{
+    -webkit-box-flex:1;
+    margin:0 0 0 0.266667rem}
+.confirm_order_msg dl dd span{
+    display:block;
+    color:#333;
+    font-size:0.426667rem}
+.confirm_order_msg dl dd strong{
+    color:#ff6b1a;
+    display: block;
+    padding-top: 0.2rem;
+    font-size:0.373333rem;
+    font-weight:500}
+.confirm_order_msg dl dd strong b{
+    padding:0 3px;
+    font-size:0.48rem;
+    font-family:Arial}
+.confirm_order_msg ul{
+    padding:0.4rem;
+    color:#999;
+    font-size:0.373333rem;
+    border-bottom:1px solid #f3f3f3
+}
+.confirm_order_msg ul:last-child{
+    border-bottom:0
+}
+.confirm_order_msg ul li{
+    padding:0.1rem 0
+}
+.confirm_order_msg ul li span{color:#333;display:inline-block;width:2rem}
+.confirm_order_msg ul li em.no{color:#ff6b1a;font-style:normal}
+.confirm_order_msg ul li em.yes{color:#999;font-style:normal}
+.confirm_order_msg .total{color:#333;padding:0.2rem;text-align:right}
+.confirm_order_msg .total span{color:#ff6b1a;font-size:0.426667rem}
+.integral p{margin:0 1.533333rem;padding:0.2rem 0;font-size:0.373333rem;position:relative}
+.integral p.tl{border-bottom:1px solid #eee}
+.integral p.tl span{color:#999;padding-left:0.2rem;font-size:0.32rem}
+.integral p.use strong{color:#ff6b1a;padding:0 3px;font-weight:500}
+.payway ul{
+    padding:0 0.266667rem
+}
+.payway ul li{
+    padding: 0.266667rem 0;
+    border-bottom:1px solid #eee
+}
+.payway ul li:last-child{
+    border-bottom: 0
+}
+.payway ul .l1{
+    font-size: 0.373333rem
+}
+.payway ul .l1 strong{
+    color:#22a4e0;
+    font-weight: normal;
+}
+.payway ul .l1 span{
+    color:#333;
+    float:right
+}
+.payway ul .l2{
+    font-size: 0.373333rem
+}
+.payway ul .l2 p{
+    padding: 0.2rem 0;
+    margin:0
+}
+.payway ul .l2 p strong{
+    color:#333;
+    font-weight:normal;
+}
+.payway ul .l2 p em{
+    float:right;
+    font-style:normal;
+    font-size:0.426667rem
+}
+.payway ul .l2 p span{
+    color:#ff6b1a;
+    float:right;
+    font-size: 0.426667rem
+}
+.payway ul .l3:after{
+    content:'.';
+    display:block;
+    width:0;
+    height:0;
+    clear:both;
+    overflow:hidden;
+}
+.payway ul .l3 a{
+    float:left;
+    display:block;
+    width:33.333333%;
+    padding:0.1rem
+}
+.payway ul .l3 a img{
+    width:100%;
+    border-radius:10px;
+    border:1px solid #d6d6d6
+}
+.payway ul .l3 a.on img{
+    border:1px solid #22a4e0
+}
+
+/* 微信 */
+.order-pay-tit{
+    height: 1.066667rem;
+    line-height: 0.8rem;
+    padding-left: 0.6rem;
+    background:url("../images/mobile/weixin-pay-fs.png") no-repeat 0 0;
+    background-size:40px auto}
+.pay-loadcg{
+    margin:0 0.4rem;
+    padding:0.4rem 0 0.4rem 1.6rem;
+    border-bottom:1px solid #dfdfdf;
+    background:url("../images/mobile/weixin-pay-fs.png") no-repeat 0 -30px;
+    background-size:40px auto}
+.pay-loadcg h3{
+    font-size:0.373333rem}
+.pay-loadcg p{
+    color:#f00;
+    margin-top: 0.2rem;
+    font-size: 0.32rem}
+.pay-txt{
+    color:#888;
+    padding:0 0.4rem 0.4rem;
+    font-size:0.32rem}
+.pay-txt p{
+    margin-top:0.4rem}
+.pay-txt p span{
+    color:#f00}
+
+
+.hold-bottom-bar{
+    height: 1.2rem
+}
+.bottom-fixed{
+    height: 1.2rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+.bottom-fixed .confirm_pay_btn{
+    color: #fff;
+    display: block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    font-size: 0.373333rem;
+    background: #ff931b
+}
+
+
+/* 二次确认 */
+.payment-second-txt{
+    color: #666;
+    font-size: 0.373333rem;
+}

@@ -1,0 +1,501 @@
+body .layui-layer{
+    width: auto !important;
+    top: 100px !important;
+    right: 50px !important;
+    bottom: 50px !important;
+    left: 50px !important;
+}
+body .layui-layer-btn{
+    background: #f3f3f3 !important;
+}
+body .layui-layer-btn a{
+    height: 34px;
+    line-height: 34px;
+    padding: 0 30px;
+}
+.pic-manage-container{
+}
+.manage-tab-wrap{
+
+}
+.manage-tab-nav{
+    height: 50px;
+    font-size: 0;
+    background: #fff;
+}
+.manage-tab-nav .item{
+    color: #999;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 27px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.manage-tab-nav .item.on{
+    color: #008ed8;
+    background: #edf6fb;
+}
+
+
+.manage-tab-bar{
+    height: 50px;
+    padding: 0 27px;
+    background: #edf6fb;
+}
+.manage-tab-bar .col-tit{
+    color: #666;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+.manage-tab-bar .back-link{
+    color: #666;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+.manage-tab-bar .back-link .back-icon{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin: -3px 8px 0 0;
+    background: url("../images/pic-manage-icon.png") no-repeat 0 0;
+}
+
+.manage-tab-block{
+    overflow-y: auto;
+    position: relative;
+}
+.manage-tab-block::-webkit-scrollbar {
+    width: 5px;
+    height: 5px
+}
+
+.manage-tab-block::-webkit-scrollbar-button {
+    height: 0;
+    background: #fff
+}
+
+.manage-tab-block::-webkit-scrollbar-track {
+    height: 0;
+    background: #dbe1e8
+}
+
+.manage-tab-block::-webkit-scrollbar-thumb {
+    background: #ccc
+}
+
+.manage-file-list{
+    padding: 8px;
+}
+.manage-file-list .file-item{
+    float: left;
+    width: 148px;
+    height: 148px;
+    margin: 8px;
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+}
+.manage-file-list .file-item .file-icon{
+    width: 148px;
+    height: 122px;
+    background: url("../images/file-manage-icon.png") center no-repeat #f4f4f4;
+}
+.manage-file-list .file-item .file-name,
+.manage-file-list .pic-item .pic-name{
+    color: #666;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.manage-file-list .pic-item{
+    float: left;
+    width: 148px;
+    height: 148px;
+    margin: 8px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #e1e1e1;
+}
+.manage-file-list .pic-item.active-item{
+    width: 146px;
+    height: 146px;
+    border: 2px solid #008ed8;
+}
+.manage-file-list .pic-item.active-item .active-icon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../images/pic-manage-icon.png") no-repeat 3px -40px #008ed8;
+}
+.manage-file-list .pic-item .pic-img{
+    display: table-cell;
+    width: 148px;
+    height: 122px;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    background: #f4f4f4;
+}
+.manage-file-list .pic-item.active-item .pic-img{
+    width: 146px;
+    height: 120px;
+}
+.manage-file-list .pic-item .pic-img img{
+    max-width: 148px;
+    max-height: 122px;
+    vertical-align: middle;
+}
+.manage-file-list .pic-item.active-item .pic-img img{
+    max-width: 146px;
+    max-height: 120px;
+}
+
+.manage-file-list .add-item{
+    float: left;
+    width: 148px;
+    height: 148px;
+    margin: 8px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #e1e1e1;
+    background: #f4f4f4;
+}
+.manage-file-list .add-item .add-icon{
+    display: inline-block;
+    width: 57px;
+    height: 50px;
+    margin-top: 30px;
+    background: url("../images/add-item-img.png") center no-repeat;
+}
+.manage-file-list .add-item .add-txt{
+    color: #999;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.upload-msg-wrap{
+    height: 52px;
+    line-height: 52px;
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 1px solid #e1e1e1;
+    background: #fff;
+}
+.upload-msg-wrap .icon{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    margin: -3px 5px 0 0;
+    background: url("../images/pic-manage-icon.png") no-repeat;
+}
+.upload-msg-wrap .cg-icon{
+    background-position: 0 -102px;
+}
+.upload-msg-wrap .sb-icon{
+    background-position: 0 -138px;
+}
+
+
+.manage-net-box{
+    padding: 10px 0;
+}
+.manage-net-box li{
+    padding: 5px 0;
+}
+.manage-net-box .item-hd{
+    float: left;
+    color: #666;
+    width: 90px;
+    height: 36px;
+    line-height: 36px;
+    padding-right: 10px;
+    text-align: right;
+}
+.manage-net-box .item-bd{
+    padding-left: 100px;
+}
+.manage-net-box .item-bd .link-value{
+    width: 600px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+    border: 1px solid #e1e1e1;
+}
+.add-link-btn{
+    color: #666;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #dbdbdb;
+}
+.add-link-btn .link-icon{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin: -3px 6px 0 0;
+    background: url("../images/pic-manage-icon.png") no-repeat 0 -21px;
+}
+
+
+.add-img-area{
+    width: 146px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0 0 -73px;
+}
+.add-img-area .add-img-btn{
+    display: block;
+    color: #fff;
+    height: 36px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #43aee4;
+}
+.add-img-area .add-img-btn .add-img-icon{
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+    vertical-align: middle;
+    margin: -5px 10px 0 0;
+    background: url("../images/pic-manage-icon.png") no-repeat 0 -68px;
+}
+.add-img-area .ts-txt{
+    color: #999;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* 添加到文件夹 */
+.move-group-box{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.move-group-input{
+    height: 30px;
+    position: relative;
+}
+.move-group-input .input-text{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.move-group-input .arrow-icon{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    margin-top: -2px;
+    border-top: 4px solid #000;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+.move-list-container{
+    display: none;
+    height: 197px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    border: 1px solid #dedfe3;
+    border-top: 0;
+    overflow-y: auto;
+    background: #fff;
+}
+.move-list-container::-webkit-scrollbar {
+    width: 5px;
+    height: 5px
+}
+
+.move-list-container::-webkit-scrollbar-button {
+    height: 0;
+    background: #fff
+}
+
+.move-list-container::-webkit-scrollbar-track {
+    height: 0;
+    background: #dbe1e8
+}
+
+.move-list-container::-webkit-scrollbar-thumb {
+    background: #ccc
+}
+.move-list-container .group-title{
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.move-list-container .group-title:hover{
+    background: #f6fafe;
+}
+.move-list-container .group-2{
+    padding-left: 12px;
+}
+.move-list-container .group-3{
+    padding-left: 24px;
+}
+.move-list-container .group-4{
+    padding-left: 38px;
+}
+.move-list-container .group-5{
+    padding-left: 50px;
+}
+.level-icon{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    vertical-align: middle;
+    margin: -3px 6px 0 0;
+    background: url("../images/level-icon.png") center no-repeat;
+}
+
+
+/* 搜索 */
+.search-pic-box{
+    height: 36px;
+    padding: 7px 0;
+}
+.search-pic-box .select-box{
+    width: 120px;
+    height: 36px;
+    line-height: 34px;
+    padding: 0 5px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.search-pic-box .search-text{
+    width: 340px;
+    height: 36px;
+    line-height: 34px;
+    padding: 0 5px;
+    margin-left: 8px;
+    border: 1px solid #e1e1e1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.search-pic-box .search-btn{
+    width: 36px;
+    height: 36px;
+    border: 0;
+    margin-left: 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: url("../images/pic-manage-icon.png") no-repeat 6px -168px #43aee4;
+}
+
+
+/*按钮*/
+.manage-btn-block{
+    height: 36px;
+    padding: 7px 10px;
+    background: #f3f3f3;
+}
+.manage-btn-block .btn{
+    display: inline-block;
+    width: 92px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.manage-btn-block .btn-primary{
+    color: #fff;
+    background: #43aee4;
+}
+.manage-btn-block .btn-default{
+    color: #666;
+    background: #dbdbdb;
+}
+.manage-btn-block .btn-danger{
+    color: #fff;
+    background: #c75050;
+}
+
+/* 进度条 */
+.progress-wrap{
+    color: #fff;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -12px;
+    text-align: center;
+    background: rgba(0,0,0,.2);
+}
+.progress-wrap .progress-bar{
+    display: block;
+    height: 24px;
+    background: #88d113;
+}
+.progress-wrap .txt{
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-style: normal;
+}
+
+
+
+
+

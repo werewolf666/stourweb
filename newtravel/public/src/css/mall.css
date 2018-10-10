@@ -1,0 +1,231 @@
+.tab-box:after,
+.plug-listbox:after,
+.listCon:after,
+.page-plug:after,
+.plug-tabnav:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.page-plug{
+    clear: both;
+}
+/*插件列表*/
+.tab-box{
+    height: 33px;
+    padding: 0 20px;
+    background: #dde5eb;
+}
+.tab-block{
+    float: left;
+    padding: 4px 0;
+}
+.tab-block span{
+    float: left;
+    color: #46afe5;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #46afe5;
+    background: #fff;
+}
+.tab-block span.active{
+    color: #fff;
+    background: #46afe5;
+}
+.search-block{
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    margin: 4px 0;
+    border: 1px solid #dcdcdb;
+    background: #fff;
+}
+.search-block .search-text{
+    float: left;
+    width: 200px;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 5px;
+    border: 0;
+}
+.search-block .search-btn{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    line-height: 25px;
+    margin-top:2px;
+    background:url(../images/dest_btns.png) no-repeat -20px 0px;
+}
+
+.content-block{
+    padding: 10px;
+}
+.jieshao-tit{
+    color:#333;
+    padding:5px 10px;
+}
+.plug-listbox{
+
+}
+.plug-listbox li{
+    float: left;
+    width: 514px;
+    margin: 10px;
+    border: 1px solid #e4e4e4;
+}
+.plug-listbox .listCon{
+    padding: 12px;
+}
+.plug-listbox .listCon .listPic{
+    float: left;
+    width: 296px;
+    height: 136px;
+    position: relative;
+}
+.plug-listbox .listCon .listPic span{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 6px;
+    background: #04c802;
+}
+.plug-listbox .listCon .listPic img{
+    width: 100%;
+    height: 100%;
+}
+.plug-listbox .listCon .listTxt{
+    padding-left: 306px;
+}
+.plug-listbox .listCon .listTxt h3{
+    color: #333;
+    height:40px;
+    line-height:20px;
+    overflow:hidden;
+    font-size: 16px;
+}
+.plug-listbox .listCon .listTxt p{
+    color: #999;
+    height: 60px;
+    line-height: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.plug-listbox .listCon .listTxt a{
+    color: #333;
+    display: block;
+    margin-top: 10px;
+}
+.plug-listbox .listCon .listTxt a:hover{
+    color: #f60;
+}
+.plug-listbox .list-data{
+    height: 33px;
+    border-top: 1px solid #f1f1f1;
+}
+.plug-listbox .list-data span{
+    display: block;
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 30px;
+    border-right: 1px solid #f1f1f1;
+}
+.plug-listbox .list-data span:last-of-type{
+    border: 0;
+}
+.plug-listbox .list-data .price{
+    color: #fc6000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.plug-listbox .list-data .now-gm-btn{
+    color: #fff;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 12px;
+    margin: 4px 15px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    background: #fc6000;
+}
+
+/*插件详情介绍*/
+.plug-msg-con{
+    padding: 10px;
+}
+.plug-msg-con .pic{
+    width:296px;
+    height:125px}
+.plug-msg-con .pic img{
+    width:100%;
+    height:100%}
+.plug-msg-con .bt{
+    color:#333;
+    padding:20px 0;
+    font-size:20px}
+.plug-msg-con .jg{
+    color:#fc6000;
+    font-size:24px;
+    font-weight:bold}
+.plug-msg-con .attr-list{
+    margin-top:5px}
+.plug-msg-con .attr-list li{
+    color:#666;
+    height:30px;
+    line-height:30px}
+.plug-msg-con .attr-list li a{
+    margin:0 5px}
+
+.plug-tab-display{
+    padding: 10px;
+}
+.plug-tabnav{
+    border-bottom: 1px solid #e5e5e5;
+}
+.plug-tabnav span{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin-right: 2px;
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 0;
+}
+.plug-tabnav span.on{
+    background: #e5e5e5;
+}
+.plug-tabcon{
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-top:0 ;
+}
+
+.cursor{ cursor: pointer}
+.mall .pro-search{ float: left; margin: 3px 0 0 5px;}
+.mall .set-text-xh{ width: 300px;}
+.page-plug,.app-info-content{ overflow-y: scroll;}
+.pageContainer{ margin-right:50px; }
+.installed-btn{background:#04c802;}
+.install-btn{background:#fc6000;}
+
+
+
+
+
+
+

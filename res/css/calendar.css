@@ -1,0 +1,115 @@
+/***Calender***/
+table { border-collapse: collapse; border-spacing: 0; }
+
+.calendar{border-collapse:collapse;border:3px solid #E7E7E7;border:1px solid green}
+/*.calendar tr td{padding:1px}*/
+
+.calendar-title{height:25px;background:#f2f7fd;}
+
+.calendar-title-current-month{color:#333;font-weight:500; font-family:"微软雅黑"; font-size:14px}
+
+.calendar-weeks{height:24px;background:#fafff1;}
+
+.calendar-week-days{height:45px;}
+
+.calendar td{text-align:center;border-bottom:1px solid #d8d8d8;width:auto;height:68px;vertical-align:middle;}
+
+.calendar td div{font-weight:400;line-height:20px;overflow:hidden;text-align:center;width:56px; padding: 3px 0}
+
+.calendar span.v-holiday{font-size:12px;font-weight:400;color:#555;text-align:right;float:none;}
+
+.calendar-today{color:red;}
+
+.calendar a{text-decoration:none;cursor:pointer; display: block; width: 55px; height: 18px; line-height: 18px}
+
+.calendar_red{color: #F60;font-size: 12px;font-weight:500; font-family:"微软雅黑"}
+
+.calendar_bg_ffffcc{background:#ffc;height:46px;}
+
+.calendar_padding_top_8{padding-top:8px;}
+
+.calendar_padding_top_5{padding-top:5px;}
+
+.calendar_color_333{color:#333;}
+
+.calendar_color_ff6600{color:#f60;}
+
+.calendar_jieri{color:#4876FF;}
+
+.calendar-tag,.calendar div{color:Red;font-size:12px;}
+
+.calendar td b{
+	color:#888}
+
+.calendar-weeks td{background:#cfebff;font-weight:500;color:#333; height: 33px; font-size:12px}
+
+.calendar td div{color:#555}
+
+#subPrev{ width:68px;height:30px;float:left;}
+
+#subNext{ width:68px;height:30px;float:left;}
+#subPrev:before,
+#subNext:before{
+    color: #00b7ee;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-family:"st-iconfont" !important;
+    font-style:normal;
+    font-size: 30px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+#subPrev:before{
+    content: "\e638";
+}
+#subNext:before{
+    content: "\e637";
+}
+
+#dv_01{width:500px;display:none;background-color:#FFF;position:absolute;float:left;}
+
+#calenderPartEven
+
+{
+
+	width: 928px;
+
+	overflow: hidden;
+
+	z-index:999;
+
+	 height:360px;
+
+}
+
+#calenderPartEven .closeui{ height:25px; line-height:25px; text-align:right; float:left; clear:both; width:928px;}
+
+#calenderPartEven .closeui span{ display:block; margin-right:10px; text-align:right; cursor:pointer; width:50px; float:right}
+
+.calendar
+
+{
+
+
+	border: 0;
+
+}
+
+.calendar td
+
+{
+
+	background:#fff;
+
+}
+
+.calendar td div
+
+{
+
+	width: 55px;
+
+}

@@ -1,0 +1,181 @@
+.real-name-step{
+    padding-top: 30px;
+}
+.step-item{
+    width: 770px;
+    margin: 0 auto;
+    border-top: 2px solid #e6e6e6;
+}
+.step-item .item-child{
+    float: left;
+    width: 33.333333%;
+    margin-top: -11px;
+}
+.step-item .item-first{
+    text-align: left;
+}
+.step-item .item-second{
+    text-align: center;
+}
+.step-item .item-third{
+    text-align: right;
+}
+.step-item .item-child .speed{
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+.step-item .item-child .num-icon{
+    color: #fff;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    font-family: Arial, "Microsoft YaHei", Helvetica, sans-serif;
+    background: #d6d6d6;
+}
+.step-item .item-child.step-on .num-icon{
+    background: #00b7ee;
+}
+.step-item .item-child.step-fail .num-icon{
+    background: #fc0000;
+}
+.step-item .item-first .speed{
+    margin-left: -30px;
+}
+.step-item .item-third .speed{
+    margin-right: -30px;
+}
+.step-item .item-child .speed .txt-label{
+    color: #999;
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: normal;
+}
+.step-item .item-child.step-on .txt-label{
+    color: #00b7ee;
+}
+.step-item .item-child.step-fail .txt-label{
+    color: #fc0000;
+}
+
+.rn-info-box{
+    padding-top: 30px;
+}
+.rn-info-block{
+    width: 600px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.rn-info-block > li{
+    padding: 10px 0;
+}
+.rn-info-block > li:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.rn-info-block .item-hd{
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 14px;
+}
+.rn-info-block .item-bd{
+    min-height: 30px;
+    padding: 0 0 0 105px;
+}
+.item-label{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.item-guide-name{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.update-box{
+
+}
+.update-box .sm-txt{
+    color: #999;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.update-before-area{
+    display: inline-block;
+    width: 200px;
+    height: 125px;
+    text-align: center;
+    cursor: pointer;
+    background: #f0f0f0;
+}
+.update-before-area .sm{
+    color: #999;
+    display: block;
+    margin-top: 10px;
+}
+.update-after-area{
+    display: inline-block;
+    width: 198px;
+    height: 123px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+}
+.update-delete-btn{
+    color: #999;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.pass-console-bar{
+    text-align: center;
+}
+.pass-console-bar .yes-pass,
+.pass-console-bar .not-pass{
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.pass-console-bar .yes-pass{
+    background: #43aee4;
+}
+.pass-console-bar .not-pass{
+    background: #fa2314;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

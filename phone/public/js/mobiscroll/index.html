@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <title>Mobiscroll</title>
+
+    <!-- jQuery Include -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Mobiscroll JS and CSS Includes -->
+    
+    <script src="js/mobiscroll.core.js"></script>
+    <script src="js/mobiscroll.frame.js"></script>
+    <script src="js/mobiscroll.scroller.js"></script>
+
+    <script src="js/mobiscroll.util.datetime.js"></script>
+    <script src="js/mobiscroll.datetimebase.js"></script>
+    <script src="js/mobiscroll.datetime.js"></script>
+
+    <script src="js/mobiscroll.frame.android.js"></script>
+    <script src="js/i18n/mobiscroll.i18n.zh.js"></script>
+    
+    <link href="css/mobiscroll.frame.css" rel="stylesheet" type="text/css" />
+    <link href="css/mobiscroll.frame.android.css" rel="stylesheet" type="text/css" />
+    <link href="css/mobiscroll.scroller.css" rel="stylesheet" type="text/css" />
+    <link href="css/mobiscroll.scroller.android.css" rel="stylesheet" type="text/css" />
+
+    
+    <style type="text/css">
+        /* Demo Page styling, you can disregard this in your implementation */
+        body { padding: 0; margin: 0; font-size: 16px; font-family: arial, verdana, sans-serif; }
+        input, select { width: 100%; padding: .625em; margin: 0 0 .625em 0; border: 1px solid #aaa; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+        .header { padding: .625em; background: #5185a8;}
+        .header h1 { margin: 0; padding: 0; color: #fff; text-align: center; font-size: 1.25em; font-weight: bold; text-shadow: 1px 1px 1px #000; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+        .content { padding: 1em; }
+    </style>
+
+    <script>
+        $(function () {
+
+            function init() {
+                
+                // Date demo initialization
+                $('#demo_date').mobiscroll().date({
+                    theme: theme,     // Specify theme like: theme: 'ios' or omit setting to use default 
+                    mode: mode,       // Specify scroller mode like: mode: 'mixed' or omit setting to use default 
+                    display: display, // Specify display mode like: display: 'bottom' or omit setting to use default 
+                    lang: lang        // Specify language like: lang: 'pl' or omit setting to use default 
+                });
+                
+            }    
+
+            // -------------------------------------------------------------------
+            // Demo page code START, you can disregard this in your implementation
+            var demo, theme, mode, display, lang;
+            
+			theme = $('#theme').val() || $.mobiscroll.defaults.theme,
+			mode = $('#mode').val(),
+			display = $('#display').val(),
+			lang = $('#language').val();
+			
+			init();
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Mobiscroll</h1>
+    </div>
+
+    <div class="content">
+        <!-- Demo configurator markup START, disregard this in your implementation -->
+        <div>
+            <label for="theme">Theme</label>
+            <select name="theme" id="theme" class="settings">
+                <option value="android">Android</option>
+            </select>
+        </div>
+        <div>
+            <label for="mode">Mode</label>
+            <select name="mode" id="mode" class="settings">
+                <option value="scroller">Scroller</option>
+            </select>
+        </div>
+        <div>
+            <label for="display">Display</label>
+            <select name="display" id="display" class="settings">
+                <option value="modal">Modal</option>
+            </select>
+        </div>
+        <div>
+            <label for="language">Language</label>
+            <select name="language" id="language" class="settings">
+                <option value="zh">Chinese</option>
+            </select>
+        </div>
+            <label for="demo_date">Try Date</label>
+            <input type="text" id="demo_date" />  
+    
+    </div>
+</body>
+</html>

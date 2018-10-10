@@ -1,0 +1,92 @@
+/* 退款 */
+.page-content{
+    padding-bottom: 1.30667rem;
+}
+.return-show-item{
+    background-color: #fff;
+    margin-bottom: 0.26667rem;
+}
+.return-show-item p{
+    padding: 0 0.4rem;
+}
+.return-show-item p.msg-reason{
+   padding-bottom: 0.4rem;
+}
+.return-show-item p .item-hd {
+    display: block;
+    line-height: 1.09334rem;
+    font-size: 0.373334rem;
+}
+.return-show-item p.msg-reason .reason{
+    display: block;
+    width: 9.2rem;
+    height: 2.4rem;
+    background-color: #f8f8f8;
+    font-size: 0.37334rem;
+    line-height: 0.50667rem;
+    padding: 0.16rem 0.22rem;
+    border: 0;
+}
+::-webkit-input-placeholder {
+    color:#b3b3b3;
+}
+.return-show-item p.msg{
+    font-size: 0.37334rem;
+    color: #323232;
+    line-height: 1.09334rem;
+    display: -webkit-box;
+    display: -moz-box;
+}
+.return-show-item p.msg .price{
+    display: block;
+    color: #fe7e13;
+}
+.return-show-item p.msg .text{
+    display: block;
+    width: 7.3rem;
+    line-height: 0.56rem;
+    padding: 0.25rem 0 0.28rem;
+}
+.return-show-item p.msg .type{
+    display: block;
+    max-width: 7.3rem;
+    line-height: 1.09334rem;
+}
+.return-show-item p.msg .type em{
+    font-size: 0.37334rem;
+    line-height: 1.09334rem;
+    padding-right: 0.9334rem;
+}
+.return-show-item p.msg .type em .ico{
+    display: inline-block;
+    width: 0.37334rem;
+    height: 0.37334rem;
+    background: url("../images/check-label-icon-un-02.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 0.12rem;
+}
+.return-show-item p.msg .type em.active .ico{
+    background: url("../images/check-label-icon-on.png") no-repeat;
+    background-size: contain;
+}
+.pay-group>p{
+    border-top: 1px solid #e5e5e5;
+}
+
+/*底部*/
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer .sub-btn{
+    display: block;
+    background-color: #DD2726;
+    width: 100%;
+    height: 1.30667rem;
+    font-size: 0.42667rem;
+    color: #ffffff;
+    line-height: 1.30667rem;
+    text-align: center;
+}

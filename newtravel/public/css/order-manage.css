@@ -1,0 +1,233 @@
+/* 订单信息 */
+.order-info-container{
+    display: block;
+    border-top: 1px solid #d7e4ea;
+}
+.order-info-bar{
+    height: 33px;
+    background: #f1f9ff;
+}
+.order-info-bar .bt-bar{
+    display: inline-block;
+    color: #8fc0d6;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 20px;
+    font-size: 13px;
+}
+.order-info-block{
+    padding: 10px 0;
+}
+.order-info-block > ul > li{
+    padding: 4px 0;
+}
+.order-info-block > ul > li:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.order-info-block .item-hd{
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    font-weight: normal;
+}
+.order-info-block .item-bd{
+    min-height: 30px;
+    padding-left: 105px;
+}
+.order-info-block .order-num{
+    color: #666;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+.choose-child-item{
+    display: inline-block;
+    color: #666;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 10px;
+    margin-top: 2px;
+    border: 1px solid #cfd9e8;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #ebf0f6;
+}
+.choose-child-item .close-icon{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    vertical-align: middle;
+    margin: -3px 0 0 10px;
+    cursor: pointer;
+    background: url("../images/choose-child-item-close-ico.png") center no-repeat;
+}
+.choose-start-date{
+    width: 200px;
+    height: 30px;
+    position: relative;
+}
+.choose-start-date .date-text{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    outline: none;
+    border: 1px solid #dedfe3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: '微软雅黑', Arial, Helvetica, sans-serif;
+}
+.choose-start-date .date-icon{
+    display: inline-block;
+    width: 16px;
+    height: 13px;
+    position: absolute;
+    right: 7px;
+    top: 8px;
+    cursor: pointer;
+    background: url("../images/choose-start-date-icon.gif") center no-repeat;
+}
+.user-info-table .type,
+.user-info-table .unit{
+    display: inline-block;
+    color: #666;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0 5px;
+    text-align: right;
+}
+.amount-opt-wrap{
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+.amount-opt-wrap .sub-btn,
+.amount-opt-wrap .add-btn{
+    display: inline-block;
+    color: #666;
+    width: 17px;
+    height: 22px;
+    vertical-align: middle;
+    font-size: 14px;
+    border: 1px solid #e5e5e5;
+    background: #f5f5f5;
+}
+.amount-opt-wrap .sub-btn{
+    border-right: 0;
+}
+.amount-opt-wrap .add-btn{
+    border-left: 0;
+}
+.amount-opt-wrap .num-text{
+    width: 39px;
+    height: 22px;
+    border: 1px solid #93a2b1;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+}
+/* 游客信息 */
+.user-info-table{
+    width: 100%;
+    border: 0;
+}
+.user-info-table thead{
+    color: #999;
+    background: #fafafa;
+}
+.user-info-table  td{
+    height: 30px;
+    text-align: center;
+}
+.user-info-table  td{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+/* 发票信息 */
+.receipt-num,
+.receipt-type{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+.receipt-num{
+    color: #f60;
+}
+.receipt-type{
+    color: #666;
+}
+/* 优惠信息 */
+.pre-tial{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+/* 支付信息 */
+.order-info-block .radio-label,
+.order-info-block .drop-down,
+.order-info-block .default-text{
+    font-size: 12px;
+}
+
+.order-amount-bar{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 120px;
+    z-index: 9999;
+    background: #f5f5fa;
+}
+.order-amount-bar .item{
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 13px;
+}
+.order-amount-bar .item b{
+    font-size: 18px;
+}
+.price-hint{
+    color: #999;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

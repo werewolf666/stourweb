@@ -1,0 +1,29 @@
+/**#pinyin#start**/
+Route::set('#pinyin#_show', '#pinyin#/show_<aid>.html', array(
+    'aid' => '\d+'
+
+))->defaults(array(
+        'action' => 'show',
+        'controller' => '#pinyin#'
+    ));
+Route::set('#pinyin#_book', '#pinyin#/book', array())->defaults(array(
+    'controller' => '#pinyin#',
+    'action' => 'book'
+));
+Route::set('#pinyin#_create', '#pinyin#/create', array())->defaults(array(
+    'controller' => '#pinyin#',
+    'action' => 'create'
+));
+Route::set('#pinyin#_list', '#pinyin#(/<destpy>)(<sign>)(-<sorttype>)(-<attrid>)(-<p>)',
+    array(
+        'destpy' => '[a-zA-Z]+',
+        'sign'=>'\/?',
+        'sorttype' => '[0-9]+',
+        'attrid' => '[0-9_]+',
+        'p' => '[0-9]+'
+    ))
+    ->defaults(array(
+        'controller'=>'#pinyin#',
+        'action'=>'list'
+    ));
+/**#pinyin#end**/

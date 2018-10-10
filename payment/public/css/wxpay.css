@@ -1,0 +1,53 @@
+.pay-body{
+	padding: 0 0.4rem;
+	background: #fff
+}
+
+.pay-block{
+	color: #666;
+	padding: 0.4rem 0;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5
+}
+.pay-block .txt{
+	display: block;
+	font-size: 0.373333rem
+}
+.pay-block .price{
+	display: block;
+	padding-top: 0.2rem;
+	font-size: 0.64rem
+}
+.info-order-block{
+	color: #666;
+	padding: 0.4rem 0;
+	font-size: 0.373333rem
+}
+.info-order-block>li{
+	display: -webkit-box;
+	display: -moz-box;
+	padding: 0.1rem 0
+}
+.info-order-block .item-hd{
+	display: block;
+}
+.info-order-block .item-bd{
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+}
+
+.fix-bottom-bar{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.wx-pay-btn{
+	color: #fff;
+	display: block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    font-size: 0.373333rem;
+    background: #fe6716
+}

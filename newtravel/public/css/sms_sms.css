@@ -1,0 +1,252 @@
+.sms-base .b-con .c-hint span,.sms-set .msg-bar span {
+	float: left;
+	line-height: 25px
+}
+
+.sms-single {
+	width: 800px;
+	margin: 10px 0 10px 15px;
+	border: 1px solid #dcdcdc
+}
+
+.sms-single .b-tit {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+	color: #fff;
+	background: #43AEE4
+}
+
+.sms-base .b-con {
+	height: 65px;
+	padding: 30px 0 0 20px
+}
+
+.sms-base .b-con .h-icon {
+	background: url(../images/sms_ico.png) no-repeat;
+	height: 20px;
+	width: 27px;
+	margin-top: 7px;
+	margin-right: 10px
+}
+
+.sms-base .b-con .c-hint {
+	display: inline;
+	margin-right: 40px
+}
+
+.sms-base .b-con .h-num {
+	font-size: 20px;
+	color: #eb6110;
+	padding: 0 2px
+}
+
+.sms-base .b-con .normal-btn {
+	margin-left: 25px
+}
+
+.sms-set {
+	margin: 10px
+}
+
+.sms-set .msg-bar {
+	height: 25px;
+	border-bottom: 1px solid #018CCF
+}
+
+.sms-set .msg-bar span {
+	padding: 0 10px;
+	background: #fff;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	cursor: pointer;
+	height: 25px
+}
+
+.sms-set .msg-bar span.on {
+	background: #008ED8;
+	color: #fff
+}
+
+.msg-switcher .set-one {
+	margin: 15px 0 20px;
+	width: 800px
+}
+
+.set-one .box-tit {
+	color: #fff;
+	background: #43AEE4;
+	line-height: 25px;
+	height: 25px;
+	padding-left: 15px;
+	boeder: 1px solid #43aee4
+}
+
+.set-one .set-one-box {
+	border: 1px solid #dcdcdc
+}
+
+.set-one .box-con textarea {
+	width: 790px;
+	height: 60px;
+	padding: 3px;
+	line-height: 18px;
+	border: none
+}
+
+.set-one .box-con input {
+	line-height: 25px;
+	height: 25px;
+	padding: 3px;
+	width: 90%;
+	border: 0
+}
+
+.set-one .set-one-tool div {
+	margin-top: 10px
+}
+
+.set-one .tool-cs span {
+	margin-right: 20px
+}
+
+.set-one .tool-cs span input {
+	vertical-align: middle;
+	margin-right: 3px
+}
+
+.set-one .tool-bn .short-cut {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	line-height: 25px;
+	padding: 0 10px;
+	height: 25px;
+	border: 1px solid #43AEE4;
+	color: #43AEE4;
+	float: left
+}
+
+.sms-base .e-con {
+	padding: 10px 15px
+}
+
+.sms-base .e-con table tr {
+	height: 35px
+}
+
+.sms-base .e-con table tr input {
+	border: 1px solid #dcdcdc;
+	line-height: 25px;
+	height: 24px
+}
+
+.sms-base .e-con table .tb-hint {
+	padding-left: 30px;
+	color: #666
+}
+
+.sms-base .e-ope {
+	padding: 10px 0 10px 10px
+}
+
+.sms-base .e-ope a {
+	margin-right: 10px
+}
+
+.sms-num {
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0 10px 15px
+}
+
+.sms-num:before {
+	content: "";
+	display: inline-block;
+	width: 27px;
+	height: 22px;
+	margin-right: 5px;
+	vertical-align: middle;
+	background: url(../images/sms_ico.png) no-repeat
+}
+
+.sms-num>strong {
+	color: #eb6110;
+	padding: 0 3px;
+	font-size: 14px
+}
+
+
+
+
+
+.order-info-container{
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+    float: left;
+}
+.order-info-bar{
+    height: 30px;
+    background: #43AEE4;
+}
+.order-info-bar .bt-bar{
+    display: inline-block;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    font-size: 13px;
+}
+.notice-pen{
+    margin: 10px;
+    cursor: pointer;
+    float: left;
+	width:70%
+}
+.notice-pen .tz-type{
+    cursor: pointer;
+    margin: 10px 0;
+}
+.notice-pen .tz-type span{
+    color: #999;
+    padding-left: 10px;
+}
+.notice-pen .tz-type input{
+    vertical-align: middle;
+    margin: -2px 3px 0 0;
+}
+.set-one .set-one-box {
+    border: 1px solid #dcdcdc;
+}
+.set-one .box-tit {
+    color: #555;
+    background: #DCE4EA;
+    line-height: 25px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid #DCE4EA;
+}
+.set-one .box-con textarea {
+    width: 99%;
+    height: 60px;
+    padding: 3px;
+    line-height: 18px;
+    border: none;
+}
+.set-one .set-one-tool div {
+    margin-top: 10px;
+}
+.set-one .tool-bn .short-cut {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    padding: 0 10px;
+    height: 25px;
+    border: 1px solid #43AEE4;
+    color: #43AEE4;
+    float: left;
+}
+.set-save{
+    margin: 0px 20px;
+    float: left;
+}

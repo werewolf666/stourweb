@@ -1,0 +1,141 @@
+body{
+	background: #efeff4 !important;
+}
+.certification-on{
+	position: relative;
+}
+.msg-erro{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 1.08rem;
+	line-height: 1.08rem;
+	overflow: hidden;
+	background: rgba(230,67,64,0.9);
+}
+.msg-erro strong{
+	color: #fff;
+	padding-left: 0.4rem;
+	font-size: 0.3733334rem;
+}
+.msg-erro .close{
+	position: absolute;
+	right: 0.4rem;
+	top: 50%;
+	margin-top: -0.21333334rem;
+	width: 0.42666667rem;
+	height: 0.42666667rem;
+	background: url(../images/account-close-ico2.png) no-repeat;
+	background-size: contain;
+}
+.certification-on .msg{
+	padding: 0.2rem 0.4rem 0 0.4rem;
+}
+.certification-on .msg p{
+	line-height: 1rem;
+	color: #969696;
+	font-size: 0.3733334rem;
+}
+.certification-on .content{
+	background: #fff;
+}
+.certification-on .content li{
+	height:1.2rem;
+	line-height: 1.2rem;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: 0.3733334rem;
+	overflow: hidden;
+}
+.certification-on .content li:last-child{
+	border-bottom: none;
+}
+.certification-on .content li .item{
+	width: 9.2rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	position: relative;
+}
+.certification-on .content li .item .lb{
+	position: absolute;
+	width: 2.24rem;
+	left: 0;
+}
+.certification-on .content li .item .txt{
+	position: absolute;
+	left: 2.24rem;
+	width: 6.36rem;
+	height: 1.2rem;
+}
+.certification-on .content li .item .close{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -0.21333334rem;
+	width: 0.42666667rem;
+	height: 0.42666667rem;
+	background: url(../images/account-close-ico.png) no-repeat;
+	background-size: contain;
+}
+.card-onload{
+	text-align: center;
+	padding-bottom: 0.1rem;
+}
+.card-onload h3{
+	padding: 0.2rem 0;
+	font-size: 0.3733334rem;
+	line-height: 1rem;
+}
+.card-onload > div{
+	margin: 0 auto 0.4rem auto;
+	width: 6.548rem;
+	height: 3.64rem;
+	border: 3px solid #299bf8;
+	border-radius:6px;
+	overflow: hidden;
+	background: #fff;
+	position: relative;
+}
+.card-onload > div img{
+	width: 100%;
+	height: 100%;
+}
+
+.card-onload > div input{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	width: 6.548rem;
+	height: 3.64rem;
+	opacity: 0;
+}
+.card-btn{
+	display: block;
+	width: 9.2rem;
+	margin: 0.4rem auto;
+	height: 1.28rem;
+	line-height: 1.28rem;
+	background: #ff931c;
+	font-size: 0.48rem;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+}
+.certification-examine{
+	position: absolute;
+	top: 2.16rem;
+	text-align: center;
+	width: 100%;
+}
+.certification-examine .pic{
+	margin: 0 auto;
+	width: 2.373334rem;
+	height: 2.6533334rem;
+	background: url(../images/certification-examine.png) no-repeat;
+	background-size: contain;
+}
+.certification-examine  p{
+	color: #b4b4b4;
+	font-size: 0.426667rem;
+	line-height: 1rem;
+}

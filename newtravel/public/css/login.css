@@ -1,0 +1,143 @@
+@charset "utf-8";
+body{
+    background: url("../images/login-bg.jpg") no-repeat center center;
+    position: relative;
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 680px;
+    margin:-175px -360px;
+    padding: 0 20px;
+}
+/*版本号*/
+.login-box .version{
+    width: 280px;
+    min-height: 350px;
+    background: url("../images/login-bg.png") no-repeat right center;
+    position: relative;
+}
+.login-box .version .version-words{
+    position: absolute;
+    top:50%;
+    left:0;
+    width: 242px;
+    height: 17px;
+    background: url("../images/version-pic.png") no-repeat center center;
+    margin-top: -8px;
+}
+/*账号密码输入框*/
+.login-box .login-admin{
+    width: 400px;
+    padding-top: 66px;
+    height:280px;
+}
+.info-item-block>li{
+    margin-top: 12px;
+}
+.info-item-block>li>.item-hd{
+    float: left;
+    width: 108px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    text-align: right;
+}
+.info-item-block>li>.item-bd{
+    height: 40px;
+    padding-left: 120px;
+    position: relative;
+}
+.login-box .login-admin input{
+    width: 250px;
+    height: 40px;
+    padding: 0 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 0;
+    color: #333333;
+    line-height: 40px;
+}
+.login-box .login-admin input.code-input{
+    width: 120px;
+}
+.login-box .login-admin .yzm-box {
+    position: absolute;
+    right:0;
+    top:0;
+    width: 120px;
+    height: 40px;
+    margin-left:10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*登录按钮*/
+.login-btn{
+    display: block;
+    width: 280px;
+    height: 40px;
+    background-color: #2d6dc9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 18px 0 0 120px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.login-btn:hover{
+    background-color: #2660b3;
+}
+
+/*登录错误提示*/
+.error-tips{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    z-index: 1;
+    width: 1200px;
+    margin-left: -600px;
+    margin-top: -24px;
+    height: 48px;
+    text-align: center;
+}
+.error-tips>p{
+    display: inline-block;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0,.502);
+    padding: 0 40px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+/*重置input样式*/
+input::-webkit-input-placeholder {
+    color: #b2b2b2 !important;
+    font-size: 14px!important;
+}
+input:-moz-placeholder {
+    color: #b2b2b2 !important;
+    font-size: 14px!important;
+}
+input::-moz-placeholder {
+    color: #b2b2b2 !important;
+    font-size: 14px!important;
+}
+input:-ms-input-placeholder {
+    color: #b2b2b2 !important;
+    font-size: 14px!important;
+}

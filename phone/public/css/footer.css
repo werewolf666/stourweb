@@ -1,0 +1,98 @@
+/*公用底部*/
+.foot{
+    background:#ffffff}
+.foot_btn a{
+    float:left;
+    width:25%;
+    padding: 0.4rem 0;
+    text-align:center}
+.foot_btn a em{
+    display:inline-block;
+    width:0.64rem;
+    height:0.64rem;
+    margin:0 auto;}
+.foot_btn a.foot_ico01 em{
+	background: url(../images/st_bottom_ico1.png) no-repeat;
+	background-size: contain;
+}
+.foot_btn a.foot_ico02 em{
+	background: url(../images/st_bottom_ico2.png) no-repeat;
+	background-size: contain;
+}
+.foot_btn a.foot_ico03 em{
+	background: url(../images/st_bottom_ico3.png) no-repeat;
+	background-size: contain;
+}
+.foot_btn a.foot_ico04 em{
+	background: url(../images/st_bottom_ico4.png) no-repeat;
+	background-size: contain;
+}
+.foot_btn a span{
+    color:#666;
+    display:block;
+    text-align:center;
+    font-size:0.373333rem}
+.foot_menu{
+    clear:both;
+    color:#eee;
+    padding: 0.4rem 0 0.2rem;
+    text-align:center;
+    font-size: 0.32rem;
+    border-top:1px solid #eee;
+    }
+.foot_menu a{
+    color:#666;
+    display: inline-block;
+    padding:0 0.2rem;
+    font-size:0.373333rem}
+.foot .txt{
+    color:#666;
+    padding-bottom:0.2rem;
+    text-align:center;
+    font-size:0.373333rem}
+
+
+.bom_link_box{
+    width:100%;
+    height:1.2rem}
+.bom_fixed{
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index: 999;
+    width:100%;
+    height:1.2rem;
+    line-height:1.2rem;
+    display:-webkit-box;
+    background:#f7f7f7}
+.bom_fixed a{
+    color:#333;
+    display:block;
+    width:50%;
+    -webkit-box-flex:1;
+    text-align:center;
+    font-size:0.426667rem}
+.bom_fixed a.price span{
+    color:#ff6b1a}
+.bom_fixed a.price b{
+    font-weight:500;
+    font-size:0.426667rem;
+    font-family:Arial}
+.bom_fixed a.on{
+    color:#fff;
+    background:#ff931b}
+.bom_fixed a.dp{
+    color:#fff;
+    background:#22a4e0}
+.bom_fixed a.confirm_pay_btn{
+    width:100%;
+    color:#fff;
+    background:#ff931b}
+.bom_fixed a.grey{
+    color: #fff;
+    background: #ccc;
+}
+.bom_fixed a.green{
+    color: #fff;
+    background: #31bc7c;
+}

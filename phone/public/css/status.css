@@ -1,0 +1,36 @@
+.order-status-bar{
+
+}
+.order-status-bar img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.order-fail-item{
+    padding: 0.8rem;
+    line-height: 0.64rem;
+}
+.order-fail-item .tit{
+    font-size: 0.32rem;
+}
+.order-fail-item .txt{
+    color: #666;
+    font-size: 0.32rem;
+}
+
+.bottom-fixed{
+    height: 1.2rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+.confirm-order-btn{
+    color: #fff;
+    display: block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    font-size: 0.373333rem;
+    background: #ff931b
+}

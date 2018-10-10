@@ -1,0 +1,48 @@
+/*扩展CSS*/
+.hide{display:none;}
+.inputdate{
+    border:1px solid #ccc;
+    line-height: 22px;
+}
+/*--遮罩--*/
+.fade{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.3;
+    filter:alpha(opacity=30);
+    -webkit-opacity:0.3;
+    display:none;
+    position:fixed
+}
+
+.input-error{
+    color:#fc6000;
+    height:20px;
+    line-height:20px;
+    margin-left:10px;
+    padding-left:20px;
+    background:url(../images/st-ts-ico.png) no-repeat 0 -50px
+    }
+.input-ok{
+    float: left;
+    width:15px;
+    height:15px;
+    margin:10px 0 0 10px;
+    background:url(../images/st-ts-ico.png) no-repeat 0 bottom}
+.error-border{
+    border:1px solid red !important;
+}
+.currency_sy{
+    font-style: normal;
+}
+
+.tabcon-list .list-txt .attachment{
+    list-style-type: decimal;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.tabcon-list .list-txt .attachment a{color:#3daff0}

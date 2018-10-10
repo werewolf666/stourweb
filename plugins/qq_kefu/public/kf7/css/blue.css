@@ -1,0 +1,165 @@
+.st-footer-kf-block{
+    height: 30px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:99999;
+    padding: 10px 0 10px 77px;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    background: url("../images/st-footer-kf-bg.png") left center no-repeat #fcfcfc;
+}
+/*客服QQ*/
+.foot-online-qq{
+    float: left;
+    height: 30px;
+    margin-right: 60px;
+}
+.foot-online-qq strong{
+    color: #ccc;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14px;
+}
+.foot-online-qq a{
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 8px;
+    margin-left: 10px;
+    font-size: 14px;
+    background: #00c0ff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.foot-online-qq a:hover{
+    background: #08b8f2
+}
+.foot-online-qq a:before{
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    margin: -3px 8px 0 0;
+    vertical-align: middle;
+    background: url("../images/st-footer-kf-ico.png") no-repeat 0 -32px;
+}
+/*客服电话*/
+.foot-phone-num{
+    float: left;
+    height: 30px;
+    margin-right: 50px;
+}
+.foot-phone-num strong{
+    color: #ccc;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14px;
+}
+.foot-phone-num span{
+    color: #00c0ff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, "微软雅黑";
+    font-style: italic;
+}
+/*微博微信*/
+.foot-gz{
+    float: left;
+    height: 30px;
+}
+.foot-gz strong{
+    color: #ccc;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14px;
+}
+.foot-gz .wechat-link{
+    display: inline-block;
+    margin: 0 24px 0 10px;
+    position: relative;
+}
+.foot-gz .wechat-link a,
+.foot-gz .blog-link{
+    color: #00c0ff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.foot-gz .wechat-link .wechat-pic{
+    display: none\9;
+    width: 138px;
+    height: 144px;
+    text-align: center;
+    margin-left: -69px;
+    position: absolute;
+    left: 50%;
+    bottom: 44px;
+    z-index: 9999;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform-origin: bottom center;
+    -webkit-transform-origin: bottom center;
+    -moz-transform-origin: bottom center;
+    -ms-transform-origin: bottom center;
+    background: url("../images/st-foot-wechat.png") center no-repeat;
+}
+.foot-gz .wechat-link:hover .wechat-pic{
+    display: block\9;
+    z-index: 9999;
+    opacity: 1;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+}
+.foot-gz .wechat-link .wechat-pic img{
+    width: 125px;
+    height: 125px;
+    margin-top: 5px;
+}
+
+.st-foot-close{
+    float: right;
+    width: 12px;
+    height: 12px;
+    margin: 9px 12px 0 0;
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    background: url("../images/st-footer-kf-ico.png") no-repeat 0 0;
+}
+.st-foot-close:hover{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+
+.st-foot-flexible-block{
+    width: 62px;
+    height: 52px;
+    position: fixed;
+    left: -62px;
+    bottom: 0;
+    cursor: pointer;
+    background: url("../images/st-side-flexible-block.png") center no-repeat;
+}

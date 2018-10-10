@@ -1,0 +1,60 @@
+/* 帮助 */
+.st-help-block{
+    margin: 0.266667rem 0;
+    background: #fff;
+}
+.st-help-block h3{
+    color: #22a4e0;
+    padding: 0.3rem 0.2rem;
+    margin: 0;
+    font-size: 0.426667rem;
+    font-weight: normal;
+    border-bottom: 1px solid #e0e0e0;
+}
+.st-help-block > ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.st-help-block > ul > li{
+    padding: 0.3rem 0.2rem;
+    position: relative;
+    border-bottom: 1px solid #f3f3f3;
+}
+.st-help-block > ul > li > a{
+    color: #333;
+    display: block;
+    padding-right: 0.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.373333rem;
+}
+.st-help-block > ul > li .ico{
+    width: 0.266667rem;
+    height: 0.426667rem;
+    position: absolute;
+    right: 0.2rem;
+    top: 50%;
+    margin-top: -0.106667rem;
+    opacity: 0.5;
+    background: url("../images/st_user_ico.png") no-repeat -227px 0;
+    background-size: 236px auto;
+}
+.st-help-block .more-link{
+    color: #999;
+    display: block;
+    padding: 0.2rem;
+    text-align: center;
+    font-size: 0.373333rem;
+}
+.st-help-show{
+    color: #666;
+    line-height: 1.7;
+    padding: 0.2rem;
+    overflow: hidden;
+    font-size: 0.373333rem;
+}
+.st-help-show *{
+    max-width: 100%;
+}

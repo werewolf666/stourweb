@@ -1,0 +1,73 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+.maps-items{
+    width:100%;
+    display: none;
+    position: fixed;
+    bottom:0px;
+    background: #fff;
+}
+.maps-items a{
+    float:left;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+}
+.map_info{
+    font-size:12px;
+}
+.map_info .tit{
+    font-weight: 800;
+    font-size:14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width:150px;
+    float:left;
+}
+.map_info .addr{
+    color:#666;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float:left;
+    width: 150px;
+}
+.map_info .mnav{
+    color:#158dfd;
+}
+.map_hotel{
+    padding-top: 10px;
+}
+.map_hotel .mtop{
+    font-size:14px;
+    font-weight: 600;
+    height:20px;
+    line-height: 20px;
+}
+.map_hotel .mtop .mdetail{
+    float:right;
+    margin-right: 20px;
+
+}
+.map_hotel .mtop .tit{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:160px;
+    float:left;
+}
+.map_hotel .mbtm{
+    padding-top: 5px;
+    font-size:12px;
+    padding-left: 10px;
+}
+.map_hotel .mbtm .price{
+    color:red;
+    font-size: 14px;
+}
+.map_hotel .mbtm .price_t{
+    color:#666;
+}

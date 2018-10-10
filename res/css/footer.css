@@ -1,0 +1,140 @@
+@charset "utf-8";
+.st-brand{
+	float:left;
+	width:100%;
+	min-width:1200px;
+	margin-top:20px;
+	background:#00b7ee}
+.st-serve{
+	float:left;
+	width:1200px}
+.st-serve dl{
+	float:left;
+	width:250px;
+	height:50px;
+	padding:10px 0 10px 49px}
+.st-serve dl dt{
+	float:left;
+	width:49px;
+	height:50px;
+	background:url(../images/help-ico.png) no-repeat}
+.st-serve dl.ico01 dt{
+	background-position:10px 8px}
+.st-serve dl.ico02 dt{
+	background-position:10px -60px}
+.st-serve dl.ico03 dt{
+	background-position:10px -127px}
+.st-serve dl.ico04 dt{
+	background-position:10px -194px}
+.st-serve dl dd{
+	float:left;
+	width:200px}
+.st-serve dl dd em{
+	color:#fff;
+	display:block;
+	height:26px;
+	line-height:26px;
+	font-size:16px}
+.st-serve dl dd span{
+	color:#fff;
+	display:block;
+	height:24px}
+
+.st-help{
+	float:left;
+	width:100%;
+	min-width:1200px;
+	padding:20px 0;
+	background:#fff}
+.help-lsit{
+	float:left;
+	width:1200px}
+.help-lsit dl{
+	float:left;
+	width:200px}
+.help-lsit dl dt,
+.help-lsit dl dt a{
+	color:#333;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	font-weight:bold}
+.help-lsit dl dd a{
+	display:block;
+	color: #666;
+	height:22px;
+	line-height:22px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap}
+.st-wechat{
+	float:right;
+	width:200px}
+.st-wechat span{
+	float:left;
+	height:40px;
+	line-height:20px;
+	margin:54px 0 0 10px;
+	font-size:14px}
+
+.st-footer{
+	float:left;
+	width:100%;
+	min-width:1200px;
+	padding:20px 0;
+	background:#fff}
+.st-foot-menu{
+	float:left;
+	width:1200px;
+    padding: 10px 0;
+	font-size:0;
+	text-align:center}
+.st-foot-menu a{
+	color:#666;
+	font-size:12px;
+	display:inline-block;
+	height:13px;
+	line-height:13px;
+	padding:0 10px;
+	border-left:2px solid #c1c1c1}
+.st-foot-menu a:first-child{
+	border-left:0}
+.st-foot-edit{
+	float:left;
+	color:#666;
+	width:1200px;
+	line-height:24px;
+	margin-top:20   p x;
+	text-align:center}
+.support{
+	color:#666;
+	float:left;
+	width:1210px;
+	margin-top:10px;
+	text-align:center}
+.support a{
+	color:#666}
+
+.st-link{
+	float:left;
+	width:100%;
+	padding-bottom:20px;
+	min-width:1200px;
+	background:#fff}
+.st-link-list{
+	float:left;
+	width:1200px;
+	padding-top:20px;
+    text-align: center;
+    font-size: 12px;
+	border-top:1px solid #e6e6e6}
+.st-link-list strong,
+.st-link-list a{
+	color:#666;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	height:22px;
+	line-height:22px;
+	margin-right:10px;
+}

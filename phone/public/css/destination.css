@@ -1,0 +1,233 @@
+/* 目的地栏目页焦点图 */
+.st-focus-banners .swiper-slide .item{
+	display: block;
+	width: 100%;
+	height: 3.466667rem;
+	position: relative;
+	overflow: hidden;
+	font-size: 0
+}
+.st-focus-banners .swiper-slide .item img{
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{
+	margin: 0 0.06rem
+}
+
+/* 栏目条 */
+.st-title-bar{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	padding: 0 0.4rem;
+	border-bottom: 1px solid #f3f3f3;
+	font-size: 0;
+	background: #fff
+}
+.st-title-bar .line-icon{
+	display: inline-block;
+	width: 0;
+	height: 0.48rem;
+	vertical-align: middle;
+	margin: -0.3rem 0.2rem 0 0;
+	border-left: 0.08rem solid #ff6b1a
+}
+.st-title-bar .title-txt{
+	display: inline-block;
+	font-size: 0.426667rem;
+}
+
+/* 产品列表 */
+.st-product-block{
+	margin-bottom: 0.266667rem;
+	background: #fff
+}
+.hot-dest-list{
+	padding: 0.2rem
+}
+.hot-dest-list>li{
+	float: left;
+	width: 33.333333%;
+	padding: 0.2rem;
+}
+.hot-dest-list .item{
+	display: block;
+	height: 1.893333rem;
+	position: relative;
+	overflow: hidden;
+	background: #e7e7e7
+}
+.hot-dest-list .item img{
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.hot-dest-list .item .tit{
+	display: block;
+	color: #fff;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-size: 0.32rem;
+	background: rgba(0,0,0,.3)
+}
+
+.dest-list-box{
+	margin-bottom: 0.266667rem;
+}
+.dest-list-box h3{
+	padding: 0.266667rem 0.4rem;
+	border-bottom: 1px solid #f3f3f3;
+}
+.dest-list-box h3 .icon{
+	display: inline-block;
+	width: 0.48rem;
+	height: 0.48rem;
+	vertical-align: middle;
+	margin: -0.08rem 0.2rem 0 0;
+	background: url("../images/dest-ico.png") center no-repeat;
+	background-size: contain;
+}
+.dest-list-box h3 a{
+	font-size: 0.426667rem
+}
+.dest-list-box .con{
+	padding: 0.2rem 0.4rem;
+	margin-bottom: 0.266667rem;
+	background: #fff
+}
+.dest-list-box .con dl{
+	display: -webkit-box;
+	display: -moz-box;
+	border-bottom: 1px solid #f3f3f3;
+}
+.dest-list-box .con dt{
+	width: 2rem;
+	padding: 0.2rem;
+}
+.dest-list-box .con dt a{
+	color: #ff6b1a;
+	display: inline-block;
+	font-size: 0.373333rem
+}
+.dest-list-box .con dd{
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	padding: 0.2rem 0;
+	font-size: 0
+}
+.dest-list-box .con dd a{
+	color: #666;
+	display: inline-block;
+	width: 25%;
+	margin-bottom: 0.2rem;
+	font-size: 0.32rem
+}
+
+.dest-hd{
+
+}
+.dest-hd .pic{
+	display: block;
+	width: 100%;
+	height: 6.8rem;
+	position: relative;
+	overflow: hidden;
+	background: #e7e7e7
+}
+.dest-hd .pic img{
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.dest-hd .dest-msg{
+	padding: 0.2rem 0.4rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-bottom: 1px solid #f3f3f3;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.8));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.8));
+    background: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.8));
+    background: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.8));
+}
+.dest-hd .dest-msg .ch,
+.dest-hd .dest-msg .en{
+	color: #fff;
+	display: inline-block;
+	width: 5.733333rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 0.2rem;
+	font-size: 0.426667rem
+}
+.dest-hd .dest-msg .en{
+	margin-bottom: 0;
+	font-size: 0.373333rem
+}
+.dest-hd .photo-link{
+	color: #fff;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	position: absolute;
+	bottom: 0.6rem;
+	right: 0.4rem;
+	font-size: 0.373333rem
+}
+.dest-hd .photo-link .icon{
+	display: inline-block;
+	width: 0.493334rem;
+	height: 0.44rem;
+	vertical-align: middle;
+	margin: -0.08rem 0.2rem 0 0;
+	background: url("../images/dest-photo-icon.png") center no-repeat;
+	background-size: contain;
+}
+
+.dest-menu{
+	margin-bottom: 0.266667rem;
+	background: #fff
+}
+.dest-menu .item{
+	float: left;
+	width: 50%;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	border-right: 1px solid #f3f3f3;
+	border-bottom: 1px solid #f3f3f3;
+}
+.dest-menu .item .icon{
+	display: inline-block;
+	width: 0.8rem;
+	height: 0.8rem;
+	vertical-align: middle;
+	margin: -0.3rem 0.2rem 0 0.4rem;
+}
+.dest-menu .item .icon img{
+	width: 100%;
+	height: 100%;
+}
+.dest-menu .item .name{
+	color: #666;
+	display: inline-block;
+	font-size: 0.373333rem
+}

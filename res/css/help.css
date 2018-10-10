@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* help CSS */
+.help-side-menu{
+	float:left;
+	width:190px;
+	border:1px solid #dcdcdc;
+	background:#fafafa}
+.help-side-menu a{
+	display:block;
+	color:#333;
+	height:46px;
+	line-height:46px;
+	padding-left:60px;
+	font-size:14px;
+	border-bottom:1px solid #dcdcdc}
+.help-side-menu a.on{
+	color:#fff;
+	background:#00b7ee}
+.help-side-menu a.on:hover{
+	color:#fff}
+.help-side-menu a:hover{
+	color:#00b7ee}
+.help-side-menu a:last-child{
+	border-bottom:0}
+
+.help-main-box{
+	float:right;
+	width:958px;
+	padding:10px 15px;
+	border:1px solid #dcdcdc}
+.help-listCon,
+.help-listCon ul,
+.help-listCon li{
+	width:958px}
+.help-listCon{
+	min-height:620px}
+.help-listCon li{
+	border-bottom:1px solid #f4f4f4}
+.help-listCon li a{
+	color:#666;
+	display:block;
+	height:46px;
+	line-height:46px;
+	padding:0 10px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	font-size:14px}
+.help-listCon li a:hover{
+	color:#f60}
+.help-listCon li:last-child{
+	border-bottom:0}
+
+.help-showCon{
+	width:958px;}
+.help-showCon h1{
+	color:#00b7ee;
+	padding:10px;
+	font-size:16px;
+	border-bottom:2px solid #f4f4f4}
+.help-showCon .txtCon{
+	color:#000;
+	padding:10px;
+	line-height:24px;
+	font-size:14px}
+.help-showCon .txtCon:after{
+	content:'.';
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden}
+.help-showCon .txtCon strong{
+	font-weight: bold !important;
+}
+.help-showCon .txtCon i,
+.help-showCon .txtCon em{
+	font-style: italic;
+}

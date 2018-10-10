@@ -1,0 +1,182 @@
+/*图库管理*/
+.recycle{
+
+}
+.guide{
+	padding: 20px 20px 0;
+	color: #999999;
+}
+.guide > a{
+	color: #666666;
+}
+.guide > a:hover{
+	color: #3285ff;
+}
+.recycle-list{
+    padding: 10px;
+}
+.recycle-list li{
+	float: left;
+	margin: 10px;
+}
+.recycle-list li .pic{
+	width: 164px;
+	height: 166px;
+	padding: 3px;
+	border: 1px solid #dcdcdc;
+	position: relative;
+}
+.recycle-list li.on .pic{
+	border: 1px solid #008ed8;
+}
+.recycle-list li .pic .img{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 164px;
+	height: 166px;
+	background: #e7e7e7
+}
+.recycle-list li .pic .img img{
+	max-width: 164px;
+	max-height: 166px;
+	vertical-align: middle;
+}
+.recycle-list li .pic .choice-ico{
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	width: 17px;
+	height: 17px;
+	background: url(../images/gallery-ico.png) no-repeat;
+	cursor: pointer;
+}
+.recycle-list li.on .pic .choice-ico{
+	background-position: -19px 0;
+}
+.recycle-list li .txt{
+	padding: 0 4px;
+	width: 162px;
+	line-height: 28px;
+	height: 28px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+    border: 1px solid transparent;
+}
+.recycle-list li .txt:hover{
+   /* border: 1px solid #dedfe3;*/
+}
+.recycle-list li .edit{
+	margin-top: 6px;
+	width: 150px;
+	padding: 0 10px;
+	border: 1px solid #fff;
+	height: 28px;
+	line-height: 28px;
+}
+.recycle-list li .edit:hover{
+	border: 1px solid #dedfe3;
+}
+.recycle-list li .edit:focus{
+	border: 1px solid #3285ff;
+}
+.gallery-mg{
+
+}
+.recycle-list li .pic .close-ico{
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	width: 17px;
+	height: 17px;
+	background: url("../images/gallery-ico.png") -38px 0 no-repeat;
+	cursor: pointer;
+}
+
+/*图片服务器*/
+.gallery-server .input-text{
+	width: 250px;
+}
+.gallery-server .error-text{
+	border: 1px solid red;
+}
+.gallery-server span{
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+/*图片加速*/
+.gallery-accelerate .input-text{
+	width: 70px;
+}
+.gallery-accelerate span.error-span{
+	padding-left: 15px;
+}
+.gallery-accelerate span.c-red{
+	
+}
+
+
+/* 顶部操作栏 */
+.pic-manage-bar{
+    padding: 5px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f9f9f9;
+}
+
+/* 搜索栏 */
+.search-box{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    border: 1px solid #e5e5e5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+}
+.search-box .search-text{
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 30px 0 5px;
+    vertical-align: top;
+    border: 0;
+    background: #fff;
+}
+.search-box .search-icon{
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+    background: url("../images/cms-hb-icon.png") no-repeat 0 -71px;
+}
+.search-box .search-icon:hover{
+    background: url("../images/cms-hb-icon.png") no-repeat -26px -71px;
+}
+/* 内容滚动区域 */
+.pic-manage-body{
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+/* 底部固定栏 */
+.st-bottom-console-bar{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 119px;
+    z-index: 9999;
+}
+
+
+
+
+
+

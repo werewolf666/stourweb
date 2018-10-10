@@ -1,0 +1,314 @@
+.version_sj {
+    width: 100%;
+    font-family: "微软雅黑"
+}
+
+.now_version .nowgx_btn, .now_version .nowgx_btn_click {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-align: center;
+    float: left
+}
+
+.now_version {
+    height: 30px;
+    padding: 10px 20px;
+    clear: both
+}
+
+.now_version p {
+    color: #282828;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 20px;
+    background: url(../images/begingx.png) left no-repeat
+}
+
+.now_version .nowgx_btn {
+    color: #fff;
+    background: #008ed8
+}
+
+.now_version .nowgx_btn_click {
+    color: #fff;
+    background: #ccc
+}
+
+.version_list {
+    padding-bottom: 20px;
+    font-family: '宋体'
+}
+
+.version_list th {
+    color: #fff;
+    font-weight: 500;
+    background: #008ed8
+}
+
+.version_list td {
+    color: #4b5864;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.version_list td .color_009, .version_list td .hasupgrade {
+    color: #009e30
+}
+
+.version_list td .tck_con {
+    display: block;
+    width: 240px;
+    height: 35px;
+    line-height: 42px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    margin-left: -120px;
+    background: url(../images/tck_con_bg.png) left no-repeat
+}
+
+.version_num_con {
+    color: #565656;
+    float: left
+}
+
+.version_num_con dl {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc
+}
+
+.version_num_con dl dt {
+    float: left;
+    width: 10%;
+    height: 40px;
+    line-height: 40px
+}
+
+.version_num_con dl dd {
+    width: 90%;
+    float: left;
+    line-height: 40px
+}
+
+.ver_desc {
+    display: none
+}
+
+
+
+
+
+.manage{
+    width:1250px;
+}
+.manage-memo-text{
+    color: #999999;
+    margin-left: 10px;
+}
+.manage-memo-text-a{
+    color: #999999;
+    margin-left: 94px;
+}
+.manage-top{
+    padding: 25px 0 43px 35px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.manage-top p{
+    line-height: 24px;
+}
+.manage-top p.welcome{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.manage-top p span.system-version {
+    color: #006498;
+}
+.manage-top p span.new-system {
+    color: red;
+}
+.manage-top .upgrade{
+    padding-top: 23px;
+}
+.manage-top .upgrade .upgrade-btn{
+    display: inline-block;
+    padding: 7px 16px;
+    color: #fff;
+    background: #27a739;
+    border-radius: 5px;
+    margin: 0 10px 0 15px;
+}
+.manage-top .upgrade .upgrade-btn:hover{
+    background: #269c3a;
+}
+.manage-top .upgrade .upgrade-des{
+    color: #ffa600;
+}
+.manage-top .upgrade .upgrade-des:hover{
+    text-decoration: underline;
+}
+.manage-bot{
+    padding-top: 30px;
+}
+.manage-bot>p{
+    margin-bottom: 8px;
+}
+.manage-bot>p label{
+    width:149px;
+    display: inline-block;
+    text-align: right;
+}
+.manage-bot>p em{
+    padding-left: 20px;
+    display: inline-block;
+    width:60px;
+    font-style: normal;
+    color: #006498;
+}
+.manage-bot>p em.sj{
+    color: #15b000;
+}
+.manage-bot>p em.sj_disabled{
+    color: red;
+}
+.manage-bot>p a{
+    display: inline-block;
+    width:80px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+}
+.manage-bot>p a i,.manage-bot>p a span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.manage-bot>p a i{
+    width:15px;
+    height: 14px;
+    background: url(../images/app_manage_ico.png) no-repeat;
+}
+.manage-bot>p a.manage-sj i{
+    background-position: 0 -18px;
+}
+.manage-bot>p a.manage-sj{
+    background: #27a739;
+}
+.manage-bot>p a.manage-sj:hover{
+    background: #269c3a;
+}
+.manage-bot>p a.manage-a{
+    background: #47a5d6;
+}
+.manage-bot>p a.manage-a:hover{
+    background: #1185c8;
+}
+
+
+
+/*升级备份提醒弹框*/
+.out-box-con .con{
+    width:450px;
+    height: 260px;
+    vertical-align: middle;
+    text-align: center;
+}
+.out-box-con .con>p{
+    line-height: 32px;
+    color: #666666;
+}
+.out-box-con .con>p.tiwen{
+    font-size: 14px;
+    color: #313131;
+}
+.out-box-con .con>p.error{
+    font-size: 14px;
+    color: red;
+}
+.out-box-con .con .sure{
+    display: inline-block;
+    padding: 7px 20px;
+    color: #fff;
+    background: #47a5d6;
+    border-radius: 5px;
+    line-height: 12px;
+    margin-top: 24px;
+}
+.out-box-con .con .sure:hover{
+    background: #1185c8;
+}
+.out-box-con .con .cancel{
+    display: inline-block;
+    padding: 7px 20px;
+    color: #fff;
+    background: #D3D3D3;
+    border-radius: 5px;
+    line-height: 12px;
+    margin-top: 24px;
+}
+.out-box-con .con .cancel:hover{
+    background: #A1A1A1;
+}
+
+/*系统升级*/
+.out-box-con .con .num{
+    font-size: 14px;
+}
+.out-box-con .con .num em{
+    font-style: normal;
+    color: #15b000;
+    font-size: 18px;
+}
+.out-box-con .con .num span{
+    color: #43aee4;
+    font-size: 18px;
+}
+.out-box-con .con .progress-bar{
+    height: 8px;
+    background: url(../images/jingdu.gif) left no-repeat;
+    border-radius: 10px;
+    width:202px;
+    display: inline-block;
+    margin: 20px 0;
+}
+.out-box-con .con .info{
+    width:100%;
+    text-align: left;
+}
+.out-box-con .con .info>div{
+    line-height: 24px;
+}
+.out-box-con .con .info>div:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.out-box-con .con .info>div label{
+    float: left;
+    width:107px;
+    text-align: right;
+}
+.out-box-con .con .info>div .descript{
+    display: block;
+    height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.out-box-con .con .notice{
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 41px;
+    color: #ff6c00;
+    line-height: 18px;
+}

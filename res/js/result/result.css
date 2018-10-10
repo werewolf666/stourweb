@@ -1,0 +1,45 @@
+/* CSS Document */
+.result {
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #f9f9f9;
+}
+
+.result::-webkit-scrollbar{
+    width:5px;
+}
+.result::-webkit-scrollbar-button{
+    height: 0;
+    background:#fff
+}
+.result::-webkit-scrollbar-track{
+    background: #d5d5d5;
+}
+.result::-webkit-scrollbar-thumb{
+    background:#a0a0a0;
+}
+
+.result li {
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.result li.over {
+    background: #fff;
+}
+
+.result li b {
+    color: #f80;
+}
+
+.prev-item{
+    margin-left: 10px;
+}

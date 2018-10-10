@@ -1,0 +1,16 @@
+.error{
+    color:red;
+    padding-left:5px;
+}
+.p-item{
+    line-height: 25px;
+    height:25px;
+    margin-left:5px;
+    border:1px solid #dfdfdf;
+    padding: 0px 3px;
+    float:left;
+}
+.p-item a{
+    color:red;
+    margin-left: 5px;
+}

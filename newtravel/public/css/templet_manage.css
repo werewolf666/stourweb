@@ -1,0 +1,104 @@
+@charset "utf-8";
+/*我的模板*/
+.help-ico{
+    float: inherit;
+    display: inline-block;
+    width:12px;
+    height:12px;
+    background: url("../images/tem-icos.png") no-repeat 0 0;
+}
+.tem-cons{
+    overflow-y: scroll;
+}
+.tem-cons li .tem-cons-tit{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.tem-cons li .menu-open-btn{
+    display: inline-block;
+    width: 14px;
+    height:14px;
+    vertical-align: middle;
+    cursor: pointer;
+    background: url("../images/tem-icos.png") no-repeat 0 -42px;
+}
+.tem-cons li .menu-open-btn.on{
+    background: url("../images/tem-icos.png") no-repeat 0 -20px;
+}
+.tem-cons li .state-btn{
+    display: inline-block;
+    width: 15px;
+    height:15px;
+    cursor: pointer;
+    background: url("../images/close-s.png") no-repeat center center;
+}
+.tem-cons li .state-btn.on{
+    background: url("../images/show-ico.png") no-repeat center center;
+}
+.tem-cons li .tem-table-con,
+.tem-cons li .tem-cons-item{
+    display: none;
+}
+.tem-cons li .tem-table-con tbody tr{
+    background-color: #f7f9fa;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+/*弹出框*/
+.layer-block{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    z-index: 999;
+    top:0;
+    bottom:0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    display: none;
+}
+.layer-block .my-tem-block{
+    position: absolute;
+    width: 442px;
+    height:288px;
+    z-index: 1000;
+    top:50%;
+    left: 50%;
+    background-color: #fff;
+    margin: -144px 0 0 -221px;
+}
+.my-tem-block-tit{
+    font-size: 14px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #008ed8;
+    position: relative;
+}
+.close-btn{
+    position: absolute;
+    right:14px;
+    top:50%;
+    width:24px;
+    height:24px;
+    background: url("../images/pop-close-icon.png") no-repeat 6px 6px;
+    margin-top: -12px;
+    cursor: pointer;
+}
+.close-btn:hover,
+.close-btn:focus {
+    background: url("../images/pop-close-icon.png") no-repeat -12px 6px;
+}
+.my-tem-block-con{
+    padding: 20px 30px 20px 29px;
+}
+.my-tem-block-con label{
+    color: red;
+    line-height: 26px;
+}
+.my-tem-block-con .info-item-block>li>.item-bd{
+    padding-left: 70px;
+}

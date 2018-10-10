@@ -1,0 +1,682 @@
+@charset "utf-8";
+/* CSS Document */
+.st-scenic-home-top{
+	float:left;
+	width:1200px}
+
+
+/*焦点图*/
+.st-scenic-slideBox{
+	float:left;
+	width:1200px;
+	height:360px;
+	overflow:hidden;
+	position:relative}
+.st-scenic-slideBox .hd{
+	width:100%;
+	height:13px;
+	overflow:hidden;
+	position:absolute;
+	left:0;
+	bottom:10px;
+	z-index:1;
+	text-align:center}
+.st-scenic-slideBox .hd ul{
+	overflow:hidden;
+	zoom:1}
+.st-scenic-slideBox .hd ul li{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	margin-right:2px;
+	width:13px;
+	height:13px;
+	line-height:13px;
+	text-align:center;
+	background:#fff;
+	font-size:0;
+	vertical-align:top;
+	cursor:pointer;
+	border-radius:50%}
+.st-scenic-slideBox .hd ul li.on{
+	background:#ccc;
+	color:#fff}
+.st-scenic-slideBox .bd{
+	position:relative;
+	height:100%;
+	z-index:0}
+.st-scenic-slideBox .bd li{
+	zoom:1;
+	vertical-align:middle}
+.st-scenic-slideBox .bd li a{
+    display: table-cell;
+    width: 1200px;
+    height: 360px;
+    vertical-align: middle;
+    text-align: center;
+}
+.st-scenic-slideBox .bd img{
+    vertical-align: middle
+}
+
+.st-scenic-slideBox .prev,
+.st-scenic-slideBox .next{
+	position:absolute;
+	left:1%;
+	top:50%;
+	margin-top:-25px;
+	display:block;
+	width:32px;
+	height:40px;
+	background:url(../images/slider-arrow.png) -110px 5px no-repeat;
+	filter:alpha(opacity=50);
+	opacity:0.5}
+.st-scenic-slideBox .next{
+	left:auto;
+	right:1%;
+	background-position:8px 5px}
+.st-scenic-slideBox .prev:hover,
+.st-scenic-slideBox .next:hover{
+	filter:alpha(opacity=100);
+	opacity:1}
+.st-scenic-slideBox .prevStop{
+	display:none}
+.st-scenic-slideBox .nextStop{
+	display:none}
+
+
+.st-cp-slideTab{
+	float:left;
+	width:1200px;
+	margin-top:30px}
+.st-cp-slideTab .st-tabnav{
+	float:left;
+	width:1200px;
+	height:40px;
+	border-bottom:1px solid #ccc}
+.st-cp-slideTab .st-tabnav h3{
+	float:left;
+	color:#00b7ee;
+	width:300px;
+	height:40px;
+	line-height:40px;
+	padding-left:5px;
+	font-size:18px;
+	font-weight:bold;}
+.st-cp-slideTab .st-tabnav span{
+	float:left;
+	color:#333;
+	height:40px;
+	line-height:40px;
+	padding:0 15px;
+	font-size:14px;
+	cursor:pointer;
+	position:relative;}
+.st-cp-slideTab .st-tabnav span.on{
+	color:#00b7ee;
+	height:39px;
+	line-height:40px;
+	border-bottom:3px solid #00b7ee}
+.st-cp-slideTab .st-tabnav span.on i{
+	position:absolute;
+	left:50%;
+	bottom:0;
+	display:block;
+	width:0;
+	height:0;
+	margin-left:-4px;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 4px solid #00b7ee
+}
+.st-cp-slideTab .st-tabnav a.more{
+	color:#333;
+	float:right;
+	height:40px;
+	line-height:40px;
+	padding-left:17px;
+	background:url(../images/index-ico.png) no-repeat 0 15px}
+.st-cp-slideTab .st-tabnav a:hover.more{
+	color:#f80;
+	background:url(../images/st-hover-ico.png) no-repeat 0 15px}
+.st-cp-slideTab .st-tabcon,
+.st-cp-slideTab .st-tabcon ul{
+	float:left;
+	width:1200px}
+.st-cp-slideTab .st-tabcon li{
+	float:left;
+	width:283px;
+	margin:20px 20px 0 0;
+	position:relative;
+	border-radius:3px;
+	border:1px solid #d8d8d8}
+.st-cp-slideTab .st-tabcon li.mr_0{
+	margin-right:0}
+.st-cp-slideTab .st-tabcon li .hot-ico{
+	position:absolute;
+	left:-4px;
+	top:-4px;
+	display:block;
+	width:67px;
+	height:65px;
+	background:url(../images/st-line-ico.png) no-repeat 0 -310px}
+.st-cp-slideTab .st-tabcon li .pic{
+    display: table-cell;
+	width:283px;
+	height:193px;
+	vertical-align: middle;
+	text-align: center;
+	overflow:hidden;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px}
+.st-cp-slideTab .st-tabcon li .pic img{
+	max-width:283px;
+	max-height:193px;
+    vertical-align: middle;
+}
+.st-cp-slideTab .st-tabcon li p{
+	float:left;
+	width:253px;
+	padding:5px 15px 0}
+.st-cp-slideTab .st-tabcon li .tit a{
+	float:left;
+	color:#333;
+	width:253px;
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+.st-cp-slideTab .st-tabcon li .tit a:hover{
+	color:#f60;
+	text-decoration:underline}
+.st-cp-slideTab .st-tabcon li .data del{
+	float:left;
+	color:#999;
+	height:30px;
+	line-height:30px}
+.st-cp-slideTab .st-tabcon li .data span{
+	float:right;
+	color:#f60;
+	height:30px;
+	line-height:30px}
+.st-cp-slideTab .st-tabcon li .data span b{
+	padding:0 3px;
+	font-size:18px;
+	font-weight:500}
+
+/* 景区列表 */
+.st-sceniclist-box,
+.st-sceniclist-con,
+.scenic-list-con{
+	float:left;
+	width:905px}
+
+.scenic-list-con .list-child{
+	float:left;
+	width:893px;
+	padding:5px;
+	margin-top:15px;
+	position:relative;
+	border:1px solid #d8d8d8;
+	border-radius:3px}
+.scenic-list-con .list-child:hover{
+	border:1px solid #00b7ee}
+.scenic-list-con .list-child .hot-ico{
+	position:absolute;
+	left:-4px;
+	top:-4px;
+	width:67px;
+	height:65px;
+	background:url(../images/st-line-ico.png) no-repeat 0 -310px}
+.scenic-list-con .list-child .lc-image-text{
+	float:left;
+	width:893px;}
+.scenic-list-con .list-child .pic{
+	float:left;
+	width:265px;
+	height:180px}
+.scenic-list-con .list-child .pic a{
+    display: table-cell;
+    width: 265px;
+    height: 180px;
+    vertical-align: middle;
+    text-align: center;
+}
+.scenic-list-con .list-child .pic a img{
+	max-width: 265px;
+	max-height: 180px;
+    vertical-align: middle;
+}
+.scenic-list-con .list-child .text{
+	float:left;
+	width:430px;
+	height:180px;
+	margin-left:30px;
+	overflow:hidden}
+.scenic-list-con .list-child .text p{
+	float:left;
+	width:430px;
+	overflow:hidden}
+.scenic-list-con .list-child .text .bt a{
+	float:left;
+	color:#333;
+	width:430px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+.scenic-list-con .list-child .text .bt a:hover{
+	color:#f60}
+.scenic-list-con .list-child .text .bt a img{
+	vertical-align:middle;
+	margin:-2px 0 0 5px}
+.scenic-list-con .list-child .text .attr span{
+	float:left;
+	color:#7d7d7d;
+	height:24px;
+	line-height:24px;
+	margin-right:35px}
+.scenic-list-con .list-child .text .js{
+	max-height:60px;
+	line-height:20px;
+	margin-top:10px}
+.scenic-list-con .list-child .text .ads{
+  color:#7d7d7d;
+  width:415px;
+  height:24px;
+  line-height:24px;
+  margin-top:10px;
+  padding-left:15px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  background:url(../images/hotel-ico.png) no-repeat 0 -144px}
+.scenic-list-con .list-child .lowest-jg{
+	float:right;
+	width:150px;
+	height:180px}
+.scenic-list-con .list-child .lowest-jg span{
+	float:left;
+	color:#f60;
+	width:150px;
+	margin-top:20px;
+	text-align:center}
+.scenic-list-con .list-child .lowest-jg span b{
+	font-size:22px;
+	padding:0 3px;
+	font-weight:500;
+	font-family:Arial}
+
+.car-typetable{
+	float:left;
+	width:893px;
+	margin-top:5px}
+.car-typetable th{
+	text-align:center;
+	background:#f9f8f8}
+.car-typetable th .pl20{
+	float:left;
+	padding-left:20px}
+.car-typetable td{
+	border-top:1px solid #d8d8d8}
+.car-typetable td .type-tit{
+	float:left;
+	padding-left:20px;
+	cursor:pointer}
+.car-typetable td .date{
+	display:block;
+	width:16px;
+	height:16px;
+	font-size:0;
+	cursor:pointer;
+	background:url(../images/date-img.png) left no-repeat}
+.car-typetable td .price{
+	color:#f60;
+	font-size:14px}
+.car-typetable .fk-way{
+	display:block;
+	color:#fc6000;
+	height:18px;
+	line-height:18px;
+	margin:0 auto;
+	border:1px solid #fc6000;
+	text-align:center;
+	border-radius:3px}
+.s-jf,
+.p-jf,
+.d-jf{
+  float:left;
+  color:#ff9b3a;
+  height:19px;
+  line-height:19px;
+  font-size:12px;
+  padding-left:24px;
+  margin:0 5px;
+  background:url(../images/ls-icobg.png) no-repeat}
+.s-jf{
+	background-position:0 -307px}
+.p-jf{
+	background-position:0 -383px}
+.d-jf{
+	background-position:0 -269px}
+.s-jf i,
+.p-jf i,
+.d-jf i{
+  float:right;
+  width:5px;
+  height:19px;
+  background:url(../images/ls-icobg.png) no-repeat -123px -288px}
+.car-typetable td .booking-btn{
+	float:right;
+	color:#fff;
+	width:70px;
+	height:25px;
+	line-height:25px;
+	margin-right:20px;
+	font-size:14px;
+	text-align:center;
+	border-radius:3px;
+	background:#ff8a00}
+.car-typetable td .booking-btn:hover{
+	background:#f60}
+.car-typetable .cartype-nr{
+	float:left;
+	width:853px;
+	line-height:20px;
+	padding:10px 20px;
+	background:#fff4e4}
+
+/*景点详情页面*/
+.st-scenic-show{
+	float:left;
+	width:905px}
+.scenicshow-tw{
+	float:left;
+	width:869px;
+	padding:15px;
+	border:3px solid #d8d8d8}
+.focus-slide{
+	float:left;
+	width:460px;
+	margin-top:15px}
+.imgnav{
+	position:relative;
+	margin:0 auto;
+	width:460px}
+#img{
+	z-index:10;
+    display: table-cell;
+	width:460px;
+	height: 312px;
+    vertical-align: middle;
+	position:relative;
+	text-align:center}
+#img img{
+	max-width: 100%;
+	max-height: 100%;
+    vertical-align: middle;
+	display:none}
+#front{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:10;
+	cursor:pointer;
+	width:230px;
+	height:312px;
+	background:url(../images/blank.gif)}
+#front a{
+	position:absolute;
+	left:10px;
+	top:127px;
+	display:block;
+	background:url(../images/imgSlideLeft.png) no-repeat;
+	width:29px;
+	height:71px;
+	display:none}
+#next{
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index:10;
+	cursor:pointer;
+	width:230px;
+	height:312px;
+	background:url(../images/blank.gif)}
+#next a{
+	position:absolute;
+	right:10px;
+	top:127px;
+	display:block;
+	background:url(../images/imgSlideRight.png) no-repeat;
+	width:29px;
+	height:71px;
+	display:none}
+#cbtn{
+	background:#fff;
+	position:relative;
+	height:72px;
+	margin-top:5px}
+#cbtn ul{
+	position:relative;
+	width:10000px;
+	height:72px}
+#cbtn ul li{
+	float:left;
+	padding:8px 3px 3px 3px;
+	width:90px;
+	height:61px;
+	cursor:pointer;
+	text-align:center;
+	margin-right:6px;
+	position:relative}
+#cbtn ul li img{
+	width:90px;
+	height:61px;
+	display:block}
+#cbtn li.hov{
+	background:url(../images/imgHoverBg.gif) no-repeat}
+.ctrl div{
+	clear:both}
+#cSlideUl{
+	width:402px;
+	height:72px;
+	overflow:hidden;
+	position:relative;
+	top:0;
+	margin:0 auto}
+.picSildeLeft{
+	cursor:pointer;
+	position:absolute;
+	top:6px;
+	left:0;
+	z-index:9}
+.picSildeRight{
+	cursor:pointer;
+	position:absolute;
+	top:6px;
+	right:0;
+	z-index:9}
+
+.cp-show-msg{
+	float:right;
+	width:394px}
+.cp-show-msg .hs-title{
+	float:left;
+	width:394px;
+	margin-bottom:10px}
+.cp-show-msg .hs-title h1{
+	float:left;
+	color:#333;
+	width:394px;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+.cp-show-msg .hs-title h1 img{
+	margin-left: 5px;
+}
+.cp-show-msg .hs-title p{
+	float:left;
+	color:#7d7d7d;
+	width:380px;
+	height:24px;
+	line-height:24px;
+	font-size:14px;
+	padding-left:14px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	background:url(../images/hotel-ico.png) no-repeat 0 -144px}
+.cp-show-msg .price{
+	float:left;
+	width:394px;
+	height:40px;
+	margin-bottom:10px}
+.cp-show-msg .price span{
+	float:left;
+	color:#fc6000;
+	width:230px;
+	height:40px;
+	line-height:40px;
+	padding-left:10px;
+	font-size:14px;
+	background:#fff4e4}
+.cp-show-msg .price span b{
+	padding:0 3px;
+	font-size:24px;
+	font-weight:500;
+	font-family:Arial}
+.cp-show-msg .sl{
+	float:left;
+	width:394px;
+	margin-bottom:10px}
+.cp-show-msg .sl span{
+	color:#7d7d7d;
+	vertical-align:middle}
+.cp-show-msg .sl s{
+	color:#7d7d7d;
+	margin:0 20px;
+	text-decoration:none}
+.cp-show-msg .sell-point{
+	float:left;
+	color:#333;
+	width:394px;
+	line-height:22px;
+	margin-top:10px;
+	font-size:14px}
+.cp-show-msg .sell-point span{
+	float:left;
+	color:#fff;
+	height:22px;
+	line-height:22px;
+	padding:0 3px;
+	margin-right:5px;
+	border-radius:3px;
+	background:#fc6000}
+.cp-show-msg .msg-ul{
+	float:left;
+	width:394px;
+	margin-top:20px}
+.cp-show-msg .msg-ul li{
+	float:left;
+	width:394px;
+	margin-bottom:10px;
+	font-size:14px}
+.cp-show-msg .msg-ul li.mb_0{
+	margin-bottom:0}
+.cp-show-msg .msg-ul li em{
+	float:left;
+	width:74px}
+.cp-show-msg .msg-ul li p{
+	float:left;
+	width:320px;
+	font-size:14px}
+.cp-show-msg .msg-ul li p img{
+	float:left;
+	margin:0 5px 5px 0}
+
+
+.scenicshow-con{
+	float:left;
+	width:905px;
+	margin-top:15px}
+.scenicshow-con .tabnav-list{
+	float:left;
+	width:905px;
+	border-bottom:2px solid #00b7ee;
+	background:#f8f8f8}
+.scenicshow-con .tabnav-list span{
+	color:#666;
+	float:left;
+	height:39px;
+	line-height:39px;
+	padding:0 10px;
+	font-size:14px;
+	cursor:pointer;
+	margin-right:-1px;
+	border:1px solid #eee;
+	border-bottom:0}
+.scenicshow-con .tabnav-list span.on{
+	color:#fff;
+	height:40px;
+	line-height:39px;
+	border:0;
+	background:#00b7ee}
+	
+.tabbox-list{
+	float:left;
+	width:863px;
+	padding:0 20px 15px;
+	border:1px solid #d8d8d8;
+	border-top:0}
+.tabcon-list{
+	float:left;
+	width:863px;
+	margin-top:20px}
+.tabcon-list .list-tit{
+	float:left;
+	width:863px;
+	border-bottom:1px solid #d8d8d8}
+.tabcon-list .list-tit strong{
+	float:left;
+	color:#000;
+	height:34px;
+	line-height:34px;
+	font-size:16px;
+	/*background:url(../images/list-tit-bg.png) left no-repeat*/}
+.tabcon-list .list-txt{
+	color:#000;
+	float:left;
+	width:833px;
+	line-height:24px;
+	overflow: hidden;
+	padding:10px 15px 0}
+.tabcon-list .list-txt img{
+	max-width:100%}
+.tabcon-list .list-txt strong{
+	font-weight: bold !important;
+}
+.tabcon-list .list-txt i,
+.tabcon-list .list-txt em{
+	font-style: italic !important;
+}
+.tabcon-list .list-txt a{
+    color: #0082dd;
+}
+.tabcon-list .list-txt a:hover{
+    color: #ff8a00;
+    text-decoration: underline;
+}
+
+.tabcon-list .car-typetable{
+	width:863px}
+.tabcon-list .car-typetable .cartype-nr{
+	width:823px}
+

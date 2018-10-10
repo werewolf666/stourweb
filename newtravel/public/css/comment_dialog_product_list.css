@@ -1,0 +1,8 @@
+.s-main{
+    /*float:left;*/
+    background: #fff;
+}
+.s-main .save-con{
+    text-align: center;
+    line-height: 40px
+}

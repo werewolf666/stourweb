@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* 问答 CSS */
+.st-wenda-box{
+	float:left;
+	width:905px}
+.online-wenda,
+.online-quiz{
+	border:1px solid #dcdcdc}
+.online-wenda .online-tit,
+.online-quiz .online-tit{
+	float: none;
+	width: 903px;
+	height:39px;
+	border-bottom:1px solid #dcdcdc;
+    border-radius: 0;
+	background:#f0f0f0}
+.online-wenda .online-tit h3,
+.online-quiz .online-tit h3{
+	float:left;
+	color:#666;
+	height:39px;
+	line-height:39px;
+	padding-left:20px;
+	font-weight:500;
+	font-size:14px}
+.online-wenda .online-tit a{
+	float:right;
+	color:#fff;
+	height:25px;
+	line-height:25px;
+	padding:0 20px;
+	margin:7px 20px 0 0;
+	border-radius:15px;
+	background:#ff9600}
+.online-wenda .online-tit a:hover{
+	background:#ff7e00}
+
+.online-conlist{
+	padding:10px 30px}
+.online-conlist li{
+	margin-top:20px;
+	padding-bottom:20px;
+	border-bottom:1px dashed #d1d1d1}
+.online-conlist li:after{
+	content:'.';
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden}
+.online-conlist li .bt{
+	color:#666;
+	float:left;
+	width:813px;
+	min-height:24px;
+	padding-left:30px;
+	font-size:14px;
+	background:url(../images/online-faq-ico.png) no-repeat 0 2px}
+.online-conlist li .bt .tag{
+	float:left;
+	width:40px;
+	height:20px;
+	line-height:20px;
+	margin-top:2px;
+	text-align:center;
+	background:#f0f0f0}
+.online-conlist li .bt .con,
+.online-conlist li .nr .con,
+.online-conlist li .hf .con{
+	float:left;
+	width:520px;
+	min-height:24px;
+	line-height:24px;
+	margin-left:10px}
+.online-conlist li .bt .date{
+	float:right;
+	height:24px;
+	line-height:24px}
+.online-conlist li .bt .date .name{
+	color:#00b7ee;
+	float:left;
+	width:80px;
+	height:24px;
+	margin-right:10px;
+	text-align:right;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis}
+
+.online-conlist li .nr{
+	float:left;
+	color:#666;
+	width:813px;
+	line-height:24px;
+	font-size:14px;
+	padding-left:30px;
+	margin-top:5px}
+.online-conlist li .nr .tag{
+	float:left;
+	width:40px;
+	height:20px;
+	line-height:20px;
+	margin-top:2px;
+	text-align:center;
+	background:#f0f0f0}
+.online-conlist li .nr .con{
+	width:750px}
+	
+.online-conlist li .hf{
+	float:left;
+	color:#666;
+	width:813px;
+	line-height:24px;
+	font-size:14px;
+	padding-left:30px;
+	margin-top:10px;
+	background:url(../images/online-faq-ico.png) no-repeat 0 -61px}
+.online-conlist li .hf .con{
+	width:580px;
+	height:24px;
+	padding-right:70px;
+	overflow:hidden;
+	margin-left:0;
+	position:relative}
+.online-conlist li .hf .con a.more{
+	position:absolute;
+	right:0;
+	top:0;
+	color:#00b7ee}
+.online-conlist li .hf .date{
+	float:right;
+	height:24px;
+	line-height:24px}
+
+/* 在线提问 */
+.online-quiz{
+	margin-top:15px}
+.online-data{
+	padding:10px 30px}
+.online-data .data-conlist{
+	width:843px;
+	margin-top:15px}
+.online-data .data-conlist:after{
+	content:'.';
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden}
+.online-data .data-conlist .tit{
+	float:left;
+	color:#333;
+	width:75px;
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	text-align:right}
+.online-data .data-conlist .box{
+	float:left;
+	width:768px}
+.online-data .data-conlist .box .ol-text{
+	float:left;
+	height:28px;
+	line-height:28px;
+	padding-left:5px;
+	font-size:14px;
+	border:1px solid #d8d8d8}
+.online-data .data-conlist .box .nm{
+	float:left;
+	color:#333;
+	height:30px;
+	line-height:30px;
+	margin-left:20px;
+	font-size:14px;
+	cursor:pointer}
+.online-data .data-conlist .box .nm input{
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	margin:-3px 3px 0 0}
+.online-data .data-conlist .box textarea{
+	float:left;
+	width:517px;
+	height:138px;
+	padding:5px;
+	border:1px solid #d8d8d8}
+.online-data .data-conlist .box .yzm,
+.online-data .data-conlist .box .yzm img{
+	float:left;
+	width:80px;
+	height:30px;
+	line-height:30px;
+	cursor:pointer}
+.online-data .data-conlist .box .yzm{
+	margin-left:10px}
+
+.online-tjbtn{
+	margin:20px 0 10px;
+	padding-left:75px}
+.online-tjbtn a{
+	display:block;
+	color:#fff;
+	width:150px;
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+	text-align:center;
+	border-radius:5px;
+	background:#fb4734}

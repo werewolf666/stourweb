@@ -1,0 +1,11 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+class Controller_#classname# extends Controller_TongYong{
+
+    protected $typeid = '#typeid#';
+    protected $pinyin = '#pinyin#';
+    public function before()
+    {
+        parent::before();
+    }
+
+}

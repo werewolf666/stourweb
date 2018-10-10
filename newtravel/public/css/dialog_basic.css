@@ -1,0 +1,89 @@
+.s-main{
+}
+.s-main .s-search{
+    background: #DCE4EA;
+    padding: 3px;
+    height:30px;
+    line-height: 30px;
+}
+.s-main .s-search .txt-wp{
+    margin-top:1px;
+}
+.s-main .s-search .txt-wp .s-txt{
+     border:1px solid #DCDCDC;
+     line-height:25px;
+     height: 25px;
+     width: 250px;
+     float:left;
+ }
+.s-main .s-search .txt-wp .s-sel{
+    border:1px solid #DCDCDC;
+    line-height:25px;
+    height: 25px;
+    float:left;
+}
+
+.s-search .txt-wp .s-btn{
+    float:left;
+    height: 20px;
+    width: 20px;
+    line-height: 25px;
+    margin-top:5px;
+    margin-left:-25px;
+    background: url(../images/dest_btns.png) no-repeat -20px 0px;
+}
+.s-search .txt-wp .s-btn:hover{
+    background: url(../images/dest_btns.png) no-repeat -20px 0px;
+}
+.s-search .txt-wp .s-btn:active{
+    background: url(../images/dest_btns.png) no-repeat -40px 0px;
+}
+.s-main .save-con{
+    padding: 5px 0px;
+    text-align: center;
+}
+.confirm-btn{
+    background: #43AEE4;
+    -moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+    line-height: 25px;
+    height: 25px;
+    padding: 0px 15px;
+    display: inline-block;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.confirm-btn:hover{
+    background:#008ED8;
+}
+.confirm-btn:active{
+    background: #F6B74D;
+}
+.page-info{
+    padding: 5px;
+    height:35px;
+}
+.dlg-list{
+    width:100%;
+}
+.dlg-list .dlg-hd{
+}
+.dlg-list .dlg-hd th{
+    background: #008ed8;
+    color:#ffffff;
+    font-weight: 300;
+    padding: 7px 10px 7px 10px;
+    margin-right: 1px;
+    border-right: 1px solid #109fe9;
+}
+.dlg-list .tb-item td{
+    height:30px;
+    vertical-align: middle;
+    padding:2px 10px 2px 10px;
+    border-bottom:1px solid #e2eff8;
+}
+.dlg-list .dlg-hd th.hd-last{
+    border-right: 0px;
+}

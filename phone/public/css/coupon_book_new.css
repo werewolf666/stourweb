@@ -1,0 +1,347 @@
+/* 产品订单、预订信息 */
+.booking-info-block{
+    margin-top: 0.2666667rem;
+    background: #fff;
+}
+.block-tit-bar{
+    height: 1.2533333rem;
+    line-height: 1.2533333rem;
+    padding: 0 0.2666667rem;
+    border-bottom: 2px solid #e6e6e6;
+}
+.block-tit-bar strong{
+    color: #1fa1df;
+    font-size: 0.4266667rem;
+}
+
+.name-block{
+    display: -webkit-box;
+    display: -moz-box;
+    padding: 0.43rem 0.27rem;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+.name-block .bt{
+    display: block;
+    width: 2.24rem;
+}
+.name-block .txt{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+}
+
+.block-item > ul{
+    padding: 0 0.27rem;
+}
+.block-item > ul > li{
+    height: 1.28rem;
+    display: -webkit-box;
+    display: -moz-box;
+    border-bottom: 2px solid #e6e6e6;
+}
+.block-item li .item-hd{
+    display: block;
+    width: 2rem;
+    line-height: 1.28rem;
+}
+.block-item li .item-hd .down-ico{
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.33rem;
+    vertical-align: middle;
+    margin: -0.05rem 0 0 0.2rem;
+    background: url("../images/arrow-more-ico.png") no-repeat;
+    background-size: cover;
+}
+.block-item li > span{
+    display: block;
+    line-height: 1.28rem;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+}
+.block-item .item-jg{
+    font-size: 0.37rem;
+}
+.block-item .write-info{
+    display: block;
+    line-height: 1.28rem;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    vertical-align: top;
+    border: 0;
+    background: transparent;
+}
+.block-item .more-type{
+    text-align: right;
+}
+.block-item .more-type .more-ico{
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.33rem;
+    vertical-align: middle;
+    margin: -0.05rem 0 0 0.2rem;
+    background: url("../images/arrow-more-ico.png") no-repeat;
+    background-size: cover;
+}
+.block-item .date-type{
+    color: #dc2622;
+}
+.block-item .amount-opt-wrap{
+    text-align: right;
+}
+
+.amount-opt-wrap{
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+.amount-opt-wrap .sub-btn,
+.amount-opt-wrap .add-btn{
+    display: inline-block;
+    color: #666;
+    width: 0.77rem;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    vertical-align: middle;
+    font-size: 0.5rem;
+    text-align: center;
+    background: #f5f5f5;
+}
+.amount-opt-wrap .sub-btn{
+    border-right: 0;
+}
+.amount-opt-wrap .add-btn{
+    border-left: 0;
+}
+.amount-opt-wrap .num-text{
+    width: 0.77rem;
+    height: 0.75rem;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.37rem;
+    background: #fff;
+}
+
+
+.block-item .nd{
+    text-align: right;
+}
+
+.block-remarks{
+    display: -webkit-box;
+    display: -moz-box;
+    padding: 0 0.2rem;
+}
+.block-remarks .item-hd{
+    display: block;
+    width: 2rem;
+    line-height: 1.28rem;
+}
+.block-remarks .item-txt{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    margin: 0.2rem 0;
+    padding: 0.2rem;
+    line-height: 1.5;
+    font-size: 0.34rem;
+    background: #f5f5f5;
+}
+
+.made-receipt,
+.write-address{
+    height: 1.28rem;
+    line-height: 1.28rem;
+    margin-top: 0.2666667rem;
+    padding: 0 0.2666667rem;
+    position: relative;
+    background: #fff;
+}
+.made-receipt strong,
+.write-address strong{
+    display: inline-block;
+}
+.made-receipt .check-box,
+.write-address .check-box{
+    display: inline-block;
+    width: 0.614rem;
+    height: 0.614rem;
+    position: absolute;
+    top: 0.34rem;
+    right: 0.2666667rem;
+    background: url("../images/check-un-ico.png") no-repeat;
+    background-size: cover;
+}
+.made-receipt .check-box.on,
+.write-address .check-box.on{
+    background: url("../images/check-on-ico.png") no-repeat;
+    background-size: cover;
+}
+
+.receipt-item{
+    padding: 0 0.267rem;
+    background: #fff;
+}
+.receipt-item > ul > li{
+    display: -webkit-box;
+    display: -moz-box;
+    min-height: 1.28rem;
+    border-top: 2px solid #e6e6e6;
+}
+.receipt-item .fp-hd{
+    display: block;
+    width: 2rem;
+    height: 1.28rem;
+    line-height: 1.28rem;
+}
+.receipt-item .fp-info{
+    display: block;
+    min-height: 1.28rem;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    text-align: right;
+    border: 0;
+}
+.receipt-item textarea.fp-info{
+    padding: 0.4rem 0 0;
+}
+
+.address-none,
+.address-have{
+    padding: 0 0.267rem;
+    background: #fff;
+}
+.address-tr{
+    display: -webkit-box;
+    display: -moz-box;
+    height: 1.28rem;
+    line-height: 1.28rem;
+    border-top: 2px solid #e6e6e6;
+}
+.address-tr .ads-ico{
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.59rem;
+    vertical-align: middle;
+    background: url("../images/address-ico.png") no-repeat;
+    background-size: cover;
+}
+.address-tr .txt{
+    display: block;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    padding-left: 0.3rem;
+}
+.address-tr .more-ico,
+.address-item .more-ico{
+    display: block;
+    width: 0.2rem;
+    background: url("../images/arrow-more-ico.png") center no-repeat;
+}
+
+.address-item{
+    display: -webkit-box;
+    display: -moz-box;
+    padding: 0.267rem 0;
+    border-top: 2px solid #e6e6e6;
+}
+.address-item .ads-ico{
+    display: block;
+    width: 0.4rem;
+    background: url("../images/address-ico.png") center no-repeat;
+    background-size: contain;
+}
+.address-item .mid-nr{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    padding: 0 0.3rem;
+}
+.address-item .mid-nr .msg .mr{
+    padding: 0.05rem 0.1rem;
+    margin-left: 0.2rem;
+    background: #f0f0f0;
+}
+.address-item .mid-nr .txt{
+    float: left;
+    padding-top: 0.3rem;
+}
+
+
+.block-item .item{
+    display: inline-block;
+    font-size: 0;
+}
+.block-item .item strong{
+    font-size: 0.37rem;
+}
+.block-item .item .type{
+    color: #f50;
+    padding: 0.1rem 0.2rem;
+    margin-left: 0.2rem;
+    border: 1px solid #f50;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 0.37rem;
+}
+
+.agreement-block{
+    padding: 0.4rem 0.2666667rem;
+}
+.agreement-block .check-box{
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    vertical-align: middle;
+    margin: -0.1rem 0.1rem 0 0;
+    background: url("../images/check-un-ico.png") no-repeat;
+    background-size: cover;
+}
+.agreement-block .check-box.on{
+    background: url("../images/check-on-ico.png") no-repeat;
+    background-size: cover;
+}
+.agreement-block > a{
+    color: #1fa1df;
+}
+
+.has-switch{
+    width: 1.5rem;
+    height: 1.28rem;
+    position: relative;
+}
+.switch-animate{
+    display: inline-block;
+    width: 1.5rem;
+    height: 0.7rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.35rem;
+    vertical-align: middle;
+    padding: 0.05rem;
+    -webkit-border-radius: 0.35rem;
+    -moz-border-radius: 0.35rem;
+    border-radius: 0.35rem;
+}
+.switch-off{
+    background: #eee;
+}
+.switch-on{
+    background: #1fa1df;
+}
+.switch-animate .switch-circle{
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.switch-off .switch-circle{
+    float: left;
+    background: #d2d2d2;
+}
+.switch-on .switch-circle{
+    float: right;
+    background: #fff;
+}

@@ -1,0 +1,1 @@
+[{"system_part_code":"core","name":"\u57fa\u7840\u7cfb\u7edf","upgrade_code":"stourwebcms","app_number":"","system_part_type":"1"}]

@@ -1,0 +1,65 @@
+/*用于内部镶嵌的列表*/
+.inline-grid{
+   margin:10px;
+   padding:10px 10px 20px 10px;
+   border:1px solid #d7d7d7;
+}
+.inline-grid .inline-header{
+    height:35px;
+}
+.inline-grid .inline-header .inline-add-btn{
+    border:1px solid #d7d7d7;
+    padding: 0px 10px;
+    height:25px;
+    line-height: 25px;
+    float:right;
+    border-radius: 3px;
+}
+.inline-grid .panel_bar .abtn{
+    background:#BCBCBC;
+    color:#fff;
+}
+.inline-grid .inline-body{
+    border:1px solid #e7e7e7;
+}
+.inline-grid .msg-bar{
+    height: 25px;
+    border-bottom: 2px solid #018CCF;
+}
+.inline-grid .msg-bar span{
+    border:1px solid #008CD1;
+    padding: 0px 10px;
+    line-height: 25px;
+    background: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    float:left;
+    cursor: pointer;
+    height: 25px;
+}
+.inline-grid .msg-bar span.on{
+    background:#008ED8;
+    color:white;
+}
+.inline-grid .product-add-div .top-con{
+    border-bottom:0px;
+    margin-top:0px
+}
+.inline-grid .x-column-header{
+    background-color:#ececec;
+    color:#333;
+    border-right: 1px solid #fff;
+}
+
+.inline-grid .sort-col .x-column-header-text{
+    padding-right: 17px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-image:url(../images/sort_both_grey.png);
+}
+.inline-grid .sort-col.x-column-header-sort-DESC .x-column-header-text{
+    background-image:url(../images/sort_desc_grey.png);
+}
+.inline-grid .sort-col.x-column-header-sort-ASC .x-column-header-text{
+    background-image:url(../images/sort_asc_grey.png);
+}

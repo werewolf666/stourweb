@@ -1,0 +1,202 @@
+/* 网页顶部 */
+.header-info{
+    height: 35px;
+    border-bottom: 1px solid #ededed;
+    background: #f9f7f6;
+}
+.login-info{
+    color: #999;
+    height: 35px;
+    line-height: 35px;
+}
+.login-info .name{
+    display: inline-block;
+    max-width: 120px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: top;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.login-info .out{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+.menu-info .menu-list{
+    float: left;
+}
+.menu-info .menu-list a{
+    color: #666;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 25px;
+}
+.menu-info .menu-list a:hover{
+    color: #f80;
+}
+.menu-info .menu-list i{
+    float: left;
+    width: 6px;
+    height: 8px;
+    margin-top: 14px;
+    background: url("../images/user-club-icon.png") no-repeat 0 -15px;
+}
+.website-dh{
+    float: left;
+    margin-left: 25px;
+    cursor: pointer;
+    position: relative;
+}
+.website-dh .dh-tit{
+    display: block;
+    color: #666;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    position: relative;
+    border-left: 1px solid #f9f7f6;
+    border-right: 1px solid #f9f7f6;
+}
+.website-dh:hover .dh-tit{
+    color: #f80;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    background: #fff;
+}
+.website-dh:hover .dh-tit:after{
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    right: 0;
+    z-index: 99;
+    border-bottom: 1px solid #fff;
+}
+.website-dh .dh-tit .arrow-ico{
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    vertical-align: middle;
+    margin: -1px 0 0 5px;
+    -webkit-transition: transform .3s;
+    -moz-transition: transform .3s;
+    -o-transition: transform .3s;
+    transition: transform .3s;
+    background: url("../images/user-club-icon.png") no-repeat 0 0;
+}
+.website-dh:hover .dh-tit .arrow-ico{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.website-dh .dh-down{
+    display: none;
+    width: 160px;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    z-index: 9999;
+    border: 1px solid #ededed;
+    background: #fff;
+}
+.website-dh:hover .dh-down{
+    display: block;
+}
+.website-dh .dh-down li{
+    float: left;
+    width: 80px;
+}
+.website-dh .dh-down li a{
+    display: block;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.website-dh .dh-down li a:hover{
+    color: #f80;
+}
+/* logo */
+.header-logo{
+    padding: 20px 0;
+}
+.header-logo .lg-img{
+    float:left;
+    width:298px;
+    height:85px;
+    overflow:hidden
+}
+.header-logo .lg-img a{
+    display: table-cell;
+    width:298px;
+    height:85px;
+    vertical-align: middle;
+    text-align: center;
+}
+.header-logo .lg-img img{
+    vertical-align:middle;
+}
+
+/* 导航 */
+.nav-club{
+    border-bottom: 2px solid #00b7ee;
+}
+.menu-club{
+    width: 1200px;
+    height: 42px;
+    margin: 0 auto;
+}
+.menu-club > ul > li{
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    position: relative;
+}
+.menu-club > ul > li > a{
+    display: block;
+    color: #52505a;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 28px;
+    font-size: 16px;
+}
+.menu-club .active > a,
+.menu-club .active > a:hover{
+    color: #fff;
+    font-size: 16px;
+    background: #00b7ee;
+}
+.menu-club .down-menu{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 42px;
+    z-index: 999;
+    padding: 5px 0;
+    background: #fff;
+}
+.menu-club .down-menu a{
+    color: #52505a;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.menu-club a:hover,
+.down-menu a:hover{
+    color: #0088d0;
+}

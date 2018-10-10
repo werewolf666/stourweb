@@ -1,0 +1,9 @@
+# Turn on URL rewriting
+RewriteEngine On
+# Installation directory
+RewriteBase /usertpl
+<FilesMatch (.*)\.(zip|js|css)$>
+order allow,deny
+deny from all
+</FilesMatch>
+

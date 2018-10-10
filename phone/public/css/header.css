@@ -1,0 +1,154 @@
+/* 公用头部 */
+.header_top{
+    height: 1.28rem;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+    background: #fff;
+}
+.header_logo{
+    width: 4.0rem;
+    height: 1.28rem;
+    position: absolute;
+    top: 0;
+    left: 0.4rem;
+}
+.header_logo img{
+    max-width: 4rem;
+    max-height: 1.28rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.header-city{
+    display: block;
+    height: 1.28rem;
+    line-height: 1.28rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0;
+    font-size: 0.373334rem
+}
+.header-city:after{
+    content: "";
+    display: inline-block;
+    width: 0.173334rem;
+    height: 0.106667rem;
+    margin: -0.06rem 0 0 0.2rem;
+    vertical-align: middle;
+    background: url(../images/st-down-ico.png) no-repeat;
+    background-size: contain;
+}
+.back-link-icon{
+    display: block;
+    width: 0.3rem;
+    height: 0.48rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+    background: url("../images/st-back-page-ico.png") center no-repeat;
+    background-size: contain;
+}
+.page-title-bar{
+    height: 1.28rem;
+    line-height: 1.28rem;
+    font-size: 0.48rem;
+    text-align: center;
+}
+/* 快捷用户中心 */
+.st-top-menu{
+    display:block;
+    width:0.48rem;
+    height:0.48rem;
+    position:absolute;
+    right: 0.4rem;
+    top:50%;
+    margin-top: -0.24rem
+}
+.st-user-center{
+    display: block;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: url("../images/user-center-home-icon.png") center no-repeat;
+    background-size: contain;
+}
+.st-user-menu{
+    display: block;
+    width:0.48rem;
+    height:0.48rem;
+    background: url("../images/st-user-menu-ico.png") center no-repeat;
+    background-size: contain;
+}
+.header-menu-bg{
+    display: none;
+    position: fixed;
+    top: 1.28rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background: rgba(0,0,0,.05);
+}
+.st-down-bar{
+    display: none;
+    position: absolute;
+    top: 0.8rem;
+    right: -0.2rem;
+    z-index: 999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #263846;
+}
+.st-down-bar:before{
+    content: "";
+    display: block;
+    width: 0.373334rem;
+    height: 0.186667rem;
+    position: absolute;
+    top: -0.17rem;
+    right: 0.2rem;
+    border-left: 0.186667rem solid transparent;
+    border-right: 0.186667rem solid transparent;
+    border-bottom: 0.186667rem solid #263846;
+}
+.st-down-bar > ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.st-down-bar > ul > li{
+    border-bottom: 1px solid #566673;
+}
+.st-down-bar > ul > li:last-child{
+    border-bottom: 0;
+}
+.st-down-bar > ul > li > a{
+    display: block;
+    color: #fff;
+    width: 3.573334rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    padding: 0 0.4rem;
+    font-size: 0.373334rem;
+}
+.st-down-bar .icon{
+    display: inline-block;
+    width: 0.48rem;
+    height: 0.48rem;
+    vertical-align: middle;
+    margin: -0.16rem 0.266667rem 0 0;
+}
+.st-down-bar .home-ico{
+    background: url("../images/home-icon.png") center no-repeat;
+    background-size: contain;
+}
+.st-down-bar .search-ico{
+    background: url("../images/search-icon.png") center no-repeat;
+    background-size: contain;
+}
+.st-down-bar .center-ico{
+    background: url("../images/user-center-icon.png") center no-repeat;
+    background-size: contain;
+}

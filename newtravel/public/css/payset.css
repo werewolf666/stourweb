@@ -1,0 +1,39 @@
+.pay-container .tit-sp{
+    color: #006498;
+    height: 40px;
+    font-size: 12px;
+}
+.pay-container .pay-sg td{
+    line-height: 40px;
+}
+.pay-container .pay-one{
+    padding: 10px 10px 10px 15px;
+}
+.pay-container .pay-txt{
+    float:left;
+    height:25px;
+    line-height: 25px;
+    border:1px solid #dcdcdc;
+}
+.pay-container .pay-hint{
+    color:#888;
+    line-height: 25px;
+}
+.pay-container .pay-warning{
+    color:red;
+    line-height: 25px;
+}
+.pay-container .up-file-div{
+    position: relative;
+    line-height: 30px;
+    padding-top: 5px;
+}
+.pay-container .up-file-div .isloaded {
+    position: absolute;
+    top: 0;
+    left: 90px;
+    color: #f00;
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+/*在线客服*/
+.st-online-box{
+	width:125px;
+	position:absolute;
+	right:10px;
+	top:300px;
+	z-index:99999;}
+.st-online-box .st-online-show{
+	overflow:hidden;
+	border-radius:5px;
+	box-shadow:3px 3px 9px rgba(0,0,0,.25),-3px -3px 9px rgba(0,0,0,.25);
+	background:#fff
+}
+.st-online-box .online-tit{
+	color:#fff;
+	height:45px;
+	line-height:45px;
+	font-size:14px;
+	text-align:center;
+	background:#00c0ff}
+.st-online-box .online-tit:before{
+	content:' ';
+	display:inline-block;
+	width:19px;
+	height:18px;
+	vertical-align:middle;
+	margin:-3px 7px 0 0;
+	background:url(../images/st-side-kf.png) no-repeat 0 -32px}
+.st-online-box .online-tit .close-zx{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	vertical-align: middle;
+	margin: -3px 0 0 10px;
+	cursor: pointer;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	background: url(../images/st-side-kf.png) no-repeat -4px -69px;
+}
+.st-online-box .online-tit .close-zx:hover{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.st-online-box .online-list{
+	padding-bottom:10px}
+.st-online-box .online-list dt{
+	color:#353434;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	background:#f5f5f5}
+.st-online-box .online-list dd{
+	padding:10px 10px 0}
+.st-online-box .online-list dd a{
+	display:block;
+	color:#fff;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border-radius:5px;
+	background:#69c32c}
+.st-online-box .online-list dd a:hover{
+	background:#60b427}
+.st-online-box .online-list dd a:before{
+	content:' ';
+	display:inline-block;
+	width:19px;
+	height:12px;
+	vertical-align:middle;
+	margin:-3px 2px 0 0;
+	background:url(../images/st-side-kf.png) no-repeat 0 0}
+.st-online-hide{
+	display: none;
+	position: absolute;
+	right: -54px;
+	top:0;
+	width: 44px;
+	height: 167px;
+	cursor: pointer;
+	background: url("../images/st-online-hide-ico-right.png") no-repeat center;
+}

@@ -1,0 +1,64 @@
+
+.kefu-manage{
+    padding-left:10px;
+}
+.kefu-manage .msg-bar{
+    height: 25px;
+    border-bottom: 2px solid #018CCF;
+}
+.kefu-manage .msg-bar span{
+    border:1px solid #008CD1;
+    padding: 0px 10px;
+    line-height: 25px;
+    background: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    float:left;
+    cursor: pointer;
+    height: 25px;
+}
+.kefu-manage .msg-bar span.on{
+    background:#008ED8;
+    color:white;
+}
+.kefu-manage .product-add-div .top-con{
+    border-bottom:0px;
+    margin-top:0px
+}
+#qq_tree_panel{
+    line-height: 20px;
+    border:1px solid #dcdcdc;
+}
+.tpl-con{
+    padding-left: 15px;
+}
+.tpl-con .kf-tpl{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.tpl-con .hint-sp,.add-class .hint-sp{
+    color:#888;
+    margin-left:20px;
+}
+.kefu-manage .x-column-header{
+    background-color:#ececec;
+    color:#333;
+    border-right: 1px solid #fff;
+}
+
+.kefu-manage .sort-col .x-column-header-text{
+    padding-right: 17px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-image:url(../images/sort_both_grey.png);
+}
+.kefu-manage .sort-col.x-column-header-sort-DESC .x-column-header-text{
+    background-image:url(../images/sort_desc_grey.png);
+}
+.kefu-manage .sort-col.x-column-header-sort-ASC .x-column-header-text{
+    background-image:url(../images/sort_asc_grey.png);
+}
+#freekefu_panel{
+    width:900px;
+    border:1px solid #dcdcdc;
+}

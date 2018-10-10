@@ -1,0 +1,142 @@
+/*侧边栏操作导航*/
+.st-sidemenu-box-2{
+    position:fixed;
+    top:0;
+    right:0;
+    width:35px;
+    z-index:99999;
+    background:#333}
+.st-sidemenu-box-2 .st-sidemenu-con{
+    width:35px;
+    height:100%;
+    position:relative}
+.st-sidemenu-box-2 .st-sidemenu-con li{
+    padding:12px 0;
+    margin-bottom:-1px;
+    cursor:pointer;
+    border-top:1px solid #333;
+    border-bottom:1px solid #333}
+.st-sidemenu-box-2 .st-sidemenu-con .microblog,
+.st-sidemenu-box-2 .st-sidemenu-con .wechat{
+    width:35px;
+    height:17px;
+    cursor:pointer;
+    font-size:0;
+    position:relative}
+.st-sidemenu-box-2 .st-sidemenu-con .microblog a{
+    display:block;
+    width:35px;
+    height:17px;
+    background:url(../images/st-sidehome-ico.png) no-repeat -24px 0}
+.st-sidemenu-box-2 .st-sidemenu-con .microblog:hover a{
+    background:url(../images/st-sidehome-ico.png) no-repeat 7px 0}
+.st-sidemenu-box-2 .st-sidemenu-con .wechat:before{
+    content:' ';
+    display:block;
+    width:35px;
+    height:17px;
+    background:url(../images/st-sidehome-ico.png) no-repeat -24px -27px}
+.st-sidemenu-box-2 .st-sidemenu-con .wechat:hover:before{
+    background:url(../images/st-sidehome-ico.png) no-repeat 7px -27px}
+.st-sidemenu-box-2 .st-sidemenu-con .wechat .wechat-box2{
+    position:absolute;
+    top:0;
+    right:35px;
+    padding:15px;
+    display:none;
+    animation:leftFadeIn ease-in-out .5s;
+    border:5px solid #5e5e5e;
+    background:#fff}
+.st-sidemenu-box-2 .st-sidemenu-con .wechat:hover .wechat-box2{
+    display:block}
+.st-sidemenu-box-2 .st-sidemenu-con .wechat .wechat-box2:after{
+    content:' ';
+    display:block;
+    width:4px;
+    height:10px;
+    position:absolute;
+    right:-9px;
+    top:20px;
+    background:url(../images/side-arrow-rig-ico.png) left no-repeat}
+.st-sidemenu-box-2 .st-sidemenu-con .wechat .wechat-box2 img{
+    width:120px;
+    height:120px}
+.st-sidemenu-box-2 .st-sidemenu-con .myorder{
+    width:35px;
+    position:relative}
+.st-sidemenu-box-2 .st-sidemenu-con .myorder:before{
+    content:' ';
+    display:block;
+    width:35px;
+    height:20px;
+    background:url(../images/st-sidehome-ico.png) no-repeat -21px -54px}
+.st-sidemenu-box-2 .st-sidemenu-con .myorder:hover:before{
+    background:url(../images/st-sidehome-ico.png) no-repeat 10px -54px}
+.st-sidemenu-box-2 .st-sidemenu-con .myorder a{
+    color:#fff;
+    display:block;
+    width:17px;
+    line-height:14px;
+    padding:5px 9px 0;
+    text-align:center}
+.st-sidemenu-box-2 .st-sidemenu-con .myorder:hover a{
+    color:#00b7ee}
+
+.st-sidemenu-box-2 .st-sidemenu-bom{
+    position:absolute;
+    bottom:20px;
+    right:0}
+.st-sidemenu-box-2 .st-backTop{
+    padding:12px 0;
+    cursor:pointer}
+.st-sidemenu-box-2 .st-backTop:before{
+    content:' ';
+    display:block;
+    width:35px;
+    height:19px;
+    background:url(../images/st-sidehome-ico.png) no-repeat -23px -114px}
+.st-sidemenu-box-2 .st-backTop:hover:before{
+    background:url(../images/st-sidehome-ico.png) no-repeat 8px -114px}
+.st-sidemenu-box-2 .st-backTop a{
+    color:#fff;
+    display:block;
+    text-align:center;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif}
+.st-sidemenu-box-2 .st-backTop:hover a{
+    color:#00b7ee}
+.st-sidemenu-box-2 .st-sidemenu-closed{
+    width:35px;
+    height:35px;
+    cursor:pointer;
+    transition:all ease-in-out .2s;
+    -webkit-transition:all ease-in-out .2s;
+    -moz-transition:all ease-in-out .2s;
+    background:url(../images/st-sidemenu-closed-ico.png) center no-repeat}
+.st-sidemenu-box-2 .st-sidemenu-closed:hover{
+    transform:rotate(-180deg);
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg)}
+
+.st-sidemenu-box-2 .st-travel-show{
+    width:63px;
+    height:52px;
+    position:fixed;
+    bottom:50px;
+    right:-100px;
+    z-index:99999;
+    cursor:pointer;
+    background:url(../images/st-tarvel-flex.png) center no-repeat}
+
+@-webkit-keyframes leftFadeIn{
+    0%{opacity:0;-webkit-transform:translatex(-30px)}
+    100%{opacity:1;-webkit-transform:translatex(0)}
+}
+@-moz-keyframes leftFadeIn{
+    0%{opacity:0;-moz-transform:translatex(-30px)}
+    100%{opacity:1;-moz-transform:translatex(0)}
+}
+@keyframes leftFadeIn{
+    0%{opacity:0;transform:translatex(-30px)}
+    100%{opacity:1;transform:translatex(0)}
+}

@@ -1,0 +1,329 @@
+.st-side-menu-block{
+    width: 36px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background: #333;
+}
+.st-side-menu-list{
+    width: 36px;
+    height: 100%;
+    position: relative;
+}
+.st-side-call{
+    width: 36px;
+    height: 120px;
+    position: relative;
+    cursor: pointer;
+    background: url("../images/st-side-menu-column-bg.jpg") center top no-repeat;
+}
+.st-side-call .call-set{
+    display: none;
+    width: 146px;
+    height: 308px;
+    padding: 0 15px;
+    position: absolute;
+    top: 0;
+    left: 37px;
+    background: url("../images/no-charge-call.jpg") center no-repeat;
+}
+.st-side-call .call-set .call-close{
+    float: right;
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: 10px -5px 0 0;
+    transition: all ease-in-out .2s;
+    -webkit-transition: all ease-in-out .2s;
+    -moz-transition: all ease-in-out .2s;
+    -ms-transition: all ease-in-out .2s;
+    background: url("../images/st-side-menu-column-list-bg.png") no-repeat -92px -141px;
+}
+.st-side-call .call-set .call-close:hover{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+.st-side-call .call-set .call-num{
+    width: 136px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 5px;
+    margin-top: 20px;
+    font-size: 12px;
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.st-side-call .call-set .call-btn{
+    color: #fff;
+    width: 146px;
+    height: 36px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #f88803;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.st-side-call .call-set .call-txt{
+    color: #efe6d4;
+    line-height: 22px;
+    padding: 10px;
+    margin-top: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;;
+}
+.menu-ul-child{
+    width: 36px;
+    height: 240px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -120px
+}
+.menu-ul-child > li{
+    width: 22px;
+    height: 20px;
+    padding: 11px 7px;
+    margin-top: -1px;
+    cursor: pointer;
+    position: relative;
+}
+.menu-ul-child > li:hover{
+    background: #fc6000;
+}
+.menu-ul-child > li:before,
+.menu-ul-child > li:after{
+    content: '';
+    display: block;
+    width: 26px;
+    height: 1px;
+    position: absolute;
+    left: 5px;
+    z-index: -1;
+    background: #4d4d4d;
+}
+.menu-ul-child > li:before{
+    top: 0;
+}
+.menu-ul-child > li:after{
+    bottom: 0;
+}
+.menu-ul-child > li .side-qq,
+.menu-ul-child > li .side-phone,
+.menu-ul-child > li .side-400,
+.menu-ul-child > li .side-wechat,
+.menu-ul-child > li .side-blog{
+    display: block;
+    width: 30px;
+    height: 24px;
+    background: url("../images/st-side-menu-column-list-bg.png") no-repeat;
+}
+.menu-ul-child > li .side-qq{
+    background-position: 0 0;
+}
+.menu-ul-child > li .side-phone{
+    background-position: 0 -40px;
+}
+.menu-ul-child > li .side-400{
+    background-position: 0 -80px;
+}
+.menu-ul-child > li .side-wechat{
+    background-position: 0 -118px;
+}
+.menu-ul-child > li .side-blog{
+    background-position: 0 -158px;
+}
+
+.menu-ul-child > li:hover .side-qq{
+    background-position: -42px 0;
+}
+.menu-ul-child > li:hover .side-phone{
+    background-position: -42px -40px;
+}
+.menu-ul-child > li:hover .side-400{
+    background-position: -42px -80px;
+}
+.menu-ul-child > li:hover .side-wechat{
+    background-position: -42px -118px;
+}
+.menu-ul-child > li:hover .side-blog{
+    background-position: -42px -158px;
+}
+
+.menu-ul-child > li .child-block{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 36px;
+}
+.menu-ul-child > li:hover .child-block{
+    display: block;
+}
+
+/*在线咨询*/
+.side-online-qq{
+    width: 150px;
+    text-align: center;
+    position: relative;
+    background: #636363;
+}
+.side-online-qq:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 20px;
+    left: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #636363;
+}
+.side-online-qq .online-tit{
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+}
+.side-online-qq .online-group{
+    padding-bottom: 20px;
+}
+.side-online-qq .online-group > dt{
+    color: #999;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    background: #6b6b6b;
+}
+.side-online-qq .online-group > dd{
+    padding: 0 20px;
+}
+.side-online-qq .online-group > dd > a{
+    display: block;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    background: #f0bf2a;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;;
+}
+.side-online-qq .online-group > dd > a:before{
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: -3px 8px 0 0;
+    vertical-align: middle;
+    background: url("../images/st-side-menu-column-list-bg.png") no-repeat -92px 0;
+}
+.side-online-qq .online-group > dd > a:hover{
+    background: #efab2b;
+}
+/*微信二维码*/
+.side-wechat-Sweep{
+    padding: 18px;
+    text-align: center;
+    position: relative;
+    background: #636363;
+}
+.side-wechat-Sweep img{
+    width: 125px;
+    height: 125px;
+}
+.side-wechat-Sweep p{
+    color: #fff;
+    padding-top: 10px;
+}
+/*联系号码*/
+.side-link-num{
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    padding:0 12px;
+    position: relative;
+    font-size: 14px;
+    white-space: nowrap;
+    background: #636363;
+}
+.side-wechat-Sweep:after,
+.side-link-num:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 20px;
+    left: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #636363;
+
+}
+/*返回顶部*/
+.st-side-back-top{
+    color: #999;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+.st-side-back-top:hover{
+    color: #fff;
+}
+.st-side-back-top:before{
+    content: '';
+    display: block;
+    width: 36px;
+    height: 10px;
+    margin: 5px 0 6px;
+    background: url("../images/st-side-menu-column-list-bg.png") no-repeat -83px -48px;
+}
+.st-side-back-top:hover:before{
+    background: url("../images/st-side-menu-column-list-bg.png") no-repeat -121px -48px;
+}
+/*关闭侧边栏*/
+.st-side-close{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+    -webkit-transition: all ease-in-out .2s;
+    -moz-transition: all ease-in-out .2s;
+    -ms-transition: all ease-in-out .2s;
+    background: url("../images/st-side-menu-column-list-bg.png") no-repeat -81px -84px;
+}
+.st-side-close:hover{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+
+.st-side-flexible-block{
+    width: 62px;
+    height: 52px;
+    position: fixed;
+    right: -70px;
+    bottom: 20px;
+    z-index:999;
+    cursor: pointer;
+    background: url("../images/st-side-flexible-block.png") center no-repeat;
+}

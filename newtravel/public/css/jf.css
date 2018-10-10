@@ -1,0 +1,117 @@
+.st-info-block .radio-label,
+.st-info-block .drop-down,
+.st-info-block .default-text{
+    font-size: 12px;
+}
+.id-number{
+    color: #666;
+    display: inline-block;
+    height:30px;
+    line-height: 30px;
+}
+.jf-dh-most{
+    color: #666;
+    display: inline-block;
+}
+.jf-dh-most em{
+    color: #ff6c00;
+    padding-left: 5px;
+    font-style: normal;
+}
+.jf-dh-scale{
+    color: #ff6c00;
+    display: inline-block;
+    margin-left: 30px;
+}
+.jf-revise-scale{
+    color: #fff;
+    display: inline-block;
+    height:22px;
+    line-height: 22px;
+    padding: 0 10px;
+    margin-left: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #ff903e;
+}
+.apply-tab-nav{
+    display: block;
+}
+.apply-tab-wrap{
+    margin-top: 10px;
+}
+.apply-tab-block{
+    margin-top: 5px;
+    border: 1px solid #d7e4ea;
+}
+
+/* 数据表格 */
+.st-table-item{
+    width: 100%;
+    border: 0;
+}
+.st-table-item th{
+    color: #4b5864;
+    height:36px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: normal;
+    background: #f1f9ff;
+}
+.st-table-item td{
+    color: #4b5864;
+    height:36px;
+    line-height: 36px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+.st-table-item td .tit{
+    display: block;
+    color: #666;
+    width: 80%;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 50px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.st-table-item td .delete{
+    color: #666;
+    display: inline-block;
+}
+.st-table-item td .tit:hover,
+.st-table-item td .delete:hover{
+    color: #43aee4;
+}
+.disabled .radio-label{
+    color:#999;
+}
+.tab-line{
+    line-height: 30px;
+    color:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+.big{ float:left; width:100% }
+ .wm-1200{ width:1200px; margin:0 auto; position:relative }
+ .wm-1200:after{ content:'.'; display:block; height:0; clear:both; visibility:hidden }
+ .st-guide{ float:left; width:1200px; height:30px; line-height:30px; padding:10px 0 }
+ .st-main-page{ float:left; width:1200px }
+ /*支付方式*/ .st-payment-way{ float:left; width:1200px; }
+ .st-payment-way .payment-msg{ padding:20px 47px; border:1px solid #d8d8d8 }
+ .st-payment-way .payment-msg .msg-tit{ padding-bottom:20px; border-bottom:1px solid #d8d8d8 }
+ .st-payment-way .payment-msg .msg-tit strong{ font-style: normal; font-weight: normal; color:#00b7ee; display:inline-block; font-size:20px; height:40px; line-height:40px; margin-left:60px; padding-left:35px; background:url("../images/payment-page-ico.png") no-repeat 0 -30px }
+ .st-payment-way .payment-msg .msg-tit span{ float:right; height:40px; line-height:40px; font-size:14px; color:#1b1b1b }
+ .st-payment-way .payment-msg .msg-tit span b{ color:#fb4734; font-size:24px }
+ .st-payment-way .payment-msg .msg-list{ margin-top:20px }
+ .st-payment-way .payment-msg .msg-list ul li{ color:#333; line-height:28px; font-size:14px }
+ .st-payment-way .payment-msg .msg-list ul li em{ font-style: normal; font-weight: normal; color:#000; float:left; width:100px; text-align:right }
+ .st-payment-way .payment-msg .msg-list ul li a{ color:#333; font-size:14px }
+ .st-payment-way .payment-msg .msg-list ul li a:hover{ color:#f60; text-decoration:underline }
+ .st-payment-way .payment-con{ padding:20px 47px; margin-top:15px; border:1px solid #d8d8d8 }
+ .st-payment-way .payment-con h3{ font-weight: normal; color:#333; font-size:16px; padding:0 5px 20px; border-bottom:1px solid #d8d8d8 }
+ .st-payment-way .payment-con .payment-line{ padding:0 5px }
+ .st-payment-way .payment-con .payment-line dl{ margin-top:15px }
+ .st-payment-way .payment-con .payment-line dl dt{ color:#7d7d7d; font-size:14px; font-weight:bold }
+ .st-payment-way .payment-con .payment-line dl dd{ margin-top:10px }
+ .st-payment-way .payment-con .payment-line dl dd ul:after{ content:'.'; display:block; width:0; height:0; clear:both; overflow:hidden }
+ .st-payment-way .payment-con .payment-line dl dd ul li{ float:left; width:150px; height:43px; margin:0 83px 20px 0; cursor:pointer; position:relative; border:1px solid #dcdcdc }
+ .st-payment-way .payment-con .payment-line dl dd ul li.active, .st-payment-way .payment-con .payment-line dl dd ul li:hover{ border:1px solid #c00 }
+ .st-payment-way .payment-con .payment-line dl dd ul li.mr_0{ margin-right:0 }
+ .st-payment-way .payment-con .payment-line dl dd ul li span, .st-payment-way .payment-con .payment-line dl dd ul li span img{ float:left; width:150px; height:43px; overflow:hidden }
+ .st-payment-way .payment-con .payment-line dl dd ul li .txt{ display:none; position:absolute; left:160px; top:-1px; z-index:9999; width:204px; padding:5px 10px; line-height:18px; border:1px solid #f8b95b; font-family:'宋体'; background:#fff }
+ .st-payment-way .payment-con .payment-line dl dd ul li:hover .txt{ display:block }
+ .st-payment-way .payment-con .payment-line dl dd ul li .txt i{ float:left; width:5px; height:8px; margin:0 0 0 -15px; background:url("../images/payment-page-ico.png") no-repeat 0 0 }
+ .st-payment-way .payment-con .offline-sm{ padding:20px 5px; margin-top:20px; border-top:1px dotted #d8d8d8 }
+ .st-payment-way .payment-con .offline-sm h4{ color:#1b1b1b; line-height:24px; font-size:14px }
+ .st-payment-way .payment-con .offline-sm p{ color:#7d7d7d; line-height:24px }
+ .st-payment-way .payment-con .payment-now-btn{ margin-top:20px }
+ .st-payment-way .payment-con .payment-now-btn a{ display:inline-block; color:#fff; width:150px; height:40px; line-height:40px; font-size:16px; text-align:center; border-radius:3px; background:#fb4734 }
+ .st-payment-back-box{ position:fixed; top:0; right:0; bottom:0; left:0; z-index:9999; background:url("../images/aph_bg.png") left top repeat }
+ .st-payment-back-box .st-back-con{ position:absolute; left:50%; top:50%; width:382px; height:296px; padding:10px 35px 0; margin:-149px 0 0 -227px; border:1px solid #d8d8d8; border-radius:5px; background:#fff }
+ .st-payment-back-box .st-back-con h3{ float:left; color:#333; width:382px; height:50px; line-height:50px; font-size:20px; position:relative; border-bottom:2px solid #00b7ee }
+ .st-payment-back-box .st-back-con h3 i{ display:block; width:20px; height:20px; position:absolute; right:0; top:15px; cursor:pointer; transition:all 0.3s; background:url("../images/st-h-search-ico.png") center no-repeat; }
+ .st-payment-back-box .st-back-con h3 i:hover{ transform:rotate(180deg) }
+ .st-payment-back-box .st-back-con .payment-ts-con, .st-payment-back-box .st-back-con .payment-ts-con .payment-opp{ float:left; width:382px }
+ .st-payment-back-box .st-back-con .payment-ts-con .payment-opp{ margin:30px 0 }
+ .st-payment-back-box .st-back-con .payment-ts-con .payment-opp .cg, .st-payment-back-box .st-back-con .payment-ts-con .payment-opp .sb{ float:left; width:190px; text-align:center; border-right:1px solid #d8d8d8 }
+ .st-payment-back-box .st-back-con .payment-ts-con .payment-opp .sb{ border:0 }
+ .st-payment-back-box .st-back-con .payment-ts-con .payment-opp .cg dt, .st-payment-back-box .st-back-con .payment-ts-con .payment-opp .sb dt{ height:35px; background:url("../images/st-payment-cg-ico.png") no-repeat center top }
+ .st-payment-back-box .st-back-con .payment-ts-con .payment-opp .sb dt{ background:url("../images/st-payment-cg-ico.png") no-repeat center -84px }
+ .st-payment-back-box .st-back-con .payment-ts-con .payment-opp .cg dd{ color:#333; font-size:14px; margin-top:10px }
+ .st-payment-back-box .st-back-con .payment-ts-con .payment-opp .sb dd{ color:#fc6000; font-size:14px; margin-top:10px }
+ .st-payment-back-box .st-back-con .payment-ts-con p.ts{ float:left; color:#999; width:382px; line-height:18px }
+.st-payment-way .payment-msg .msg-tit strong.gfk{  color:#00b7ee;  display:inline-block;  font-size:20px;  height:40px;  line-height:40px;  margin-left:60px;padding-left:45px; background:url("../images/st-nfk-ico.png") left no-repeat}
+ /*支付错误提示*/ .st-payment-ts{ float:left; width:1198px; height:558px; border:1px solid #d8d8d8 }
+ .payment-error-box{ margin-top:80px }
+ .payment-error-box .error-ico{ width:244px; height:221px; margin:0 auto; background:url("../images/payment-ts-ico.png") no-repeat 0 -579px }
+ .payment-error-box .error-txt{ color:#333; margin-top:35px; text-align:center; font-size:18px; }
+ .payment-error-box .error-txt a{ color:#fc6000; padding:0 5px; font-size:18px; text-decoration:underline }
+ .payment-error-box .btn-box, .payment-success-box .success-con .btn-box, .payment-lose-box .lose-con .btn-box{ margin-top:30px; text-align:center; font-size:0 }
+ .payment-error-box .btn-box a, .payment-success-box .success-con .btn-box a, .payment-lose-box .lose-con .btn-box a{ display:inline-block; *display:inline-block; *zoom:1; width:120px; height:33px; line-height:33px; margin:0 15px; text-align:center; font-size:16px; border:1px solid #00b7ee; border-radius:3px }
+ .payment-error-box .btn-box a.back-home-btn, .payment-success-box .success-con .btn-box a.back-home-btn, .payment-lose-box .lose-con .btn-box a.again-pay-btn{ color:#fff; background:#00b7ee }
+ .payment-error-box .btn-box a.back-home-btn:hover, .payment-success-box .success-con .btn-box a.back-home-btn:hover, .payment-lose-box .lose-con .btn-box a.again-pay-btn:hover{ border:1px solid #0088d0; background:#0088d0 }
+ .payment-error-box .btn-box a.back-prev-btn, .payment-success-box .success-con .btn-box a.check-order-btn, .payment-lose-box .lose-con .btn-box a.check-order-btn{ color:#00b7ee; border:1px solid #00b7ee; background:#fff }
+ .payment-error-box .btn-box a.back-prev-btn:hover, .payment-success-box .success-con .btn-box a.check-order-btn:hover, .payment-lose-box .lose-con .btn-box a.check-order-btn:hover{ color:#fff; background:#00b7ee }
+ /*支付成功提示*/ .payment-success-box, .payment-lose-box{ padding:165px 0 0 380px }
+ .payment-success-box .success-con{ padding:0 50px 0 150px; background:url("../images/payment-ts-ico.png") no-repeat 0 -285px }
+ .payment-success-box .success-con h3, .payment-lose-box .lose-con h3{ color:#333; margin-bottom:10px; font-size:30px }
+ .payment-success-box .success-con ul li{ color:#333; max-height:48px; line-height:24px; overflow:hidden; font-size:14px }
+ .payment-success-box .success-con ul li span{ float:left; width:75px; text-align:right }
+ .payment-success-box .success-con ul li a{ font-size:14px }
+ .payment-success-box .success-con ul li em{ font-style: normal; font-weight: normal; color:#fb4734; font-size:18px; font-weight:bold }
+ .payment-success-box .success-con .btn-box{ text-align:left }
+ .payment-success-box .success-con .btn-box a{ margin:0 22px 0 8px !important }
+ /*支付失败提示*/ .payment-lose-box .lose-con{ min-height:120px; padding:0 50px 0 150px; background:url("../images/payment-ts-ico.png") no-repeat 0 5px }
+ .payment-lose-box .lose-con .txt{ color:#000; font-size:14px }
+ .payment-lose-box .lose-con .btn-box{ margin-top:10px; text-align:left }
+ .payment-lose-box .lose-con .btn-box a{ margin:0 30px 0 0 !important }
+ /**wxpay***/ .wx-main{width:1206px;height:536px;margin:0px auto 80px;border:2px #e6e6e6 solid;float:left; }
+ .pay-weixin{width:870px;height:421px;margin:50px 0px 0px 168px;float:left; }
+ .p-w-box{width:299px;height:421px;border-right:1px #e6e6e6 solid;float:left;padding-left:35px;padding-right:148px; }
+ .p-w-hd{text-align:center;line-height:54px;font-family:Arial, "微软雅黑";font-size:24px; }
+ .pw-box-hd{width:298px;height:298px;border:1px #e6e6e6 solid; }
+ .pw-box-hd img{width:298px;height:298px; }
+ .pw-box-ft{width:175px;height:44px;margin-top:11px;background:url("../images/icon-red.png") 50px 0px no-repeat;padding:0 0 0 125px; }
+ .pw-box-ft p{margin:0;font-size:14px;line-height:22px;color:#333;font-weight:700; }
+ .p-w-sidebar{width:329px;height:421px;margin-left:58px;float:left;background:url("../images/phone-bg.png"); }
+ .payment-change{width:1204px;height:40px;margin:24px 1px 1px 1px;background:#f7f7f7;float:left; }
+ .payment-change p{padding-left:50px;font-size:14px;line-height:40px;color:#fff;font-weight:700; }
+ .payment-change p a{color:#333;text-decoration:none; }
+
+
+.st-payment-way .payment-con .payment-on{ padding:0 5px }
+.st-payment-way .payment-con .payment-on dl{ margin-top:15px }
+.st-payment-way .payment-con .payment-on dl dt{ color:#7d7d7d; font-size:14px; font-weight:bold }
+.st-payment-way .payment-con .payment-on dl dd{ margin-top:10px }
+.st-payment-way .payment-con .payment-on dl dd ul:after{ content:'.'; display:block; width:0; height:0; clear:both; overflow:hidden }
+.st-payment-way .payment-con .payment-on dl dd ul li{float:left;width:155px;height:55px;margin:0 70px 20px 0;cursor:pointer;position:relative;}
+.st-payment-way .payment-con .payment-on dl dd ul li.mr_0{ margin-right:0 }
+.st-payment-way .payment-con .payment-on dl dd ul li .txt{ display:none; position:absolute; left:160px; top:-1px; z-index:9999; width:204px; padding:5px 10px; line-height:18px; border:1px solid #f8b95b; font-family:'å®‹ä½“'; background:#fff }
+.st-payment-way .payment-con .payment-on dl dd ul li:hover .txt{ display:block }
+.st-payment-way .payment-con .payment-on dl dd ul li .txt i{ float:left; width:5px; height:8px; margin:0 0 0 -15px; background:url("../images/payment-page-ico.png") no-repeat 0 0 }
+.st-payment-way .payment-con .payment-on li img{
+    border-radius: 10px;border: 1px solid #dcdcdc;width:155px;height:55px;
+
+}
+.st-payment-way .payment-con .payment-on li img:hover,.st-payment-way .payment-con .payment-on li.active img{
+    border: 1px solid #22a4e0;
+}
+

@@ -1,0 +1,944 @@
+/*会员俱乐部首页*/
+.club-hd-box{
+	height: 9.6rem;
+	width: 100%;
+	background: url(../images/member-club-bg.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+.club-hd-box>.sign-btn{
+	position: absolute;
+	top: 0.64rem;
+	left: 0.4rem;
+	width: 2rem;
+	display: block;
+	height: 0.6rem;
+	border-radius: 20px;
+	background: #70c8f3;
+	line-height: 0.6rem;
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.26667rem;
+}
+.club-hd-box>.vip-name{
+	position: absolute;
+	top: 0.64rem;
+	right: 0;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	background: #fff;
+	padding: 0 0.28rem 0 0.4rem;
+	font-size: 0.26667rem;
+	color: #049fea;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.club-hd-box>.user-center{
+	display: inline-block;
+	padding-top: 0.64rem;
+}
+.club-hd-box>.user-center>.user-hd-img{
+	display: block;
+	position: relative;
+	text-align: center;
+	width: 2.6rem;
+	height: 2.6rem;
+	margin: 0 auto;
+}
+.club-hd-box>.user-center>.user-hd-img>img{
+	display: inline-block;
+	width: 2.6rem;
+	height: 2.6rem;
+	border: 5px solid #abe6c1;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.club-hd-box>.user-center>.user-hd-img>.level{
+	position: absolute;
+	bottom: 0;
+	right: 0.32rem;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	background: #ff9b2f;
+	border-radius: 15px;
+	display: inline-block;
+	padding: 0 0.16rem;
+	color: #fff;
+	font-size: 0.26667rem;
+	
+}
+.club-hd-box>.user-center>.user-name{
+	display: block;
+	text-align: center;
+	line-height: 1.2rem;
+	color: #fff;
+	font-size: 0.373334rem;
+}
+.club-hd-box>.integral{
+	display: block;
+	height: 0.8rem;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.club-hd-box>.integral>span{
+	border-right: 1px solid #9cdff1;
+	color: #fff;
+	padding: 0 0.25rem;
+	font-size: 0.26667rem;
+}
+.club-hd-box>.integral>span>em{
+	font-size: 0.32rem;
+}
+.club-hd-box>.integral>span:last-child{
+	border-right: none;
+}
+.earn-integral{
+	width: 9.52rem;
+	height: 3.6rem;
+	background: #fff;
+	border-radius: 15px;
+	margin: 0.2rem auto 0 auto;
+	position: relative;
+}
+.earn-integral:after{
+	content: "";
+	position: absolute;
+	top: -0.2rem;
+	left: 50%;
+	margin-left: -0.4rem;
+	width:0;
+	height:0;   
+	border-left:0.4rem solid transparent;   
+	border-right:0.4rem solid transparent;   
+	border-bottom:0.4rem solid #fff;
+}
+.earn-integral>h3{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	text-align: center;
+	font-size: 0.373334rem;
+}
+.earn-integral>.more{
+	position: absolute;
+	display: inline-block;
+	top: 0.43rem;
+	right: 0.4rem;
+	font-size: 0.26667rem;
+	color: #999999;
+}
+.earn-integral>.more>.more-arrow{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.16rem;
+	height: 0.24rem;
+	margin-top: -0.02rem;
+	margin-left: 0.1rem;
+	background: url(../images/more-arrow-ico.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li{
+	float: left;
+	width: 33.3%;
+}
+.earn-integral>.eran-list li>div{
+	border-right: 1px solid #eeeeee;
+	height: 2rem;
+	width: 3.14rem;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.earn-integral>.eran-list li:last-child>div{
+	border-right: none;
+}
+.earn-integral>.eran-list li>div>.ico{
+	display: inline-block;
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.earn-integral>.eran-list li>div>.ico.ico-1{
+	background: url(../images/points-ico1.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-2{
+	background: url(../images/points-ico2.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-3{
+	background: url(../images/points-ico3.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-4{
+	background: url(../images/points-ico4.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-5{
+	background: url(../images/points-ico5.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-6{
+	background: url(../images/points-ico6.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-7{
+	background: url(../images/points-ico7.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-8{
+	background: url(../images/points-ico8.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-9{
+	background: url(../images/points-ico9.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-10{
+	background: url(../images/points-ico10.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-11{
+	background: url(../images/points-ico11.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-12{
+	background: url(../images/points-ico12.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-13{
+	background: url(../images/points-ico13.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-14{
+	background: url(../images/points-ico14.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>.ico.ico-15{
+	background: url(../images/points-ico15.png) no-repeat;
+	background-size: contain;
+}
+.earn-integral>.eran-list li>div>p{
+	color: #666666;
+	font-size: 0.346667rem;
+	line-height: 0.56rem;
+}
+.earn-integral>.eran-list li>div>p.num{
+	color: #ff3e00;
+	font-size: 0.26667rem;
+	line-height: 0.32rem;
+}
+/*图片切换*/
+.slide-img-block{
+    width: 10rem;
+    height: 2.96rem;
+    margin: 0.2rem 0 !important;
+}
+.slide-img-block .pic{
+    display: block;
+    width: 10rem;
+    height: 2.96rem;
+}
+.slide-img-block .pic img{
+    width: 100%;
+}
+.slide-img-block .swiper-pagination-bullet{
+    width: 0.16rem !important;
+    height: 0.16rem !important;
+    margin: 0 0.05rem !important;
+    opacity: 1 !important;
+    background: rgba(255,255,255,1) !important;
+}
+.slide-img-block .swiper-pagination-bullet-active{
+    background: #5cd496 !important;
+}
+/*积分兑换列表*/
+.integral-mall{
+	background: #fff;
+}
+.integral-mall-box{
+	width: 9.76rem;
+	margin: 0 auto;
+}
+.integral-mall-box>.title{
+	height: 1.14rem;
+	line-height: 1.14rem;
+	padding: 0 0.12rem;
+	position: relative;
+}
+.integral-mall-box>.title>h3{
+	font-size: 0.373334rem;
+}
+.integral-mall-box>.title>.link-mall{
+	position: absolute;
+	top: 50%;
+	margin-top: -0.193rem;
+	right: 0.24rem;
+	display: inline-block;
+	width: 0.226667rem;
+	height: 0.386667rem;
+	background: url(../images/mall-more-ico.png) no-repeat;
+	background-size: contain;
+}
+.integral-mall-box>.list>li{
+	float: left;
+	overflow: hidden;
+}
+.integral-mall-box>.list>li>a{
+	display: block;
+	margin: 0 0.12rem;
+	width: 4.64rem;
+	height: 4.2rem;
+}
+.integral-mall-box>.list>li .pic{
+	width: 4.64rem;
+	height: 2.8rem;
+	overflow: hidden;
+}
+.integral-mall-box>.list>li .pic>img{
+	width: 100%;
+}
+.integral-mall-box>.list>li p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 0.32rem;
+	line-height: 0.56rem;
+}
+.integral-mall-box>.list>li p.num{
+	color: #ff3e00;
+	font-size: 0.26667rem;
+}
+.integral-mall-box>.list>li p.num>em{
+	font-size: 0.373334rem;
+}
+.integral-ad-box{
+	background: #fff;
+	margin-top: 0.2rem;
+}
+.integral-ad-box>ul{
+	width: 9.76rem;
+	margin: 0 auto;
+}
+.integral-ad-box li{
+	float: left;
+	width: 4.64rem;
+	height: 2.04rem;
+	overflow: hidden;
+	margin: 0.12rem;
+}
+.integral-ad-box li>a{
+	display: block;
+}
+.integral-ad-box li>a>img{
+	width: 100%;
+}
+/*我的等级*/
+.rank-hd{
+	height: 5rem;
+	width: 100%;
+	background: url(../images/member-grade-bg.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.rank-hd>.progress-bar{
+	position: absolute;
+	top: 1.52rem;
+	height: 0.16rem;
+	width: 100%;
+	background: #0069ab;
+}
+.rank-hd>.progress-bar>.percentage{
+	display: block;
+	position: absolute;
+	height: 0.16rem;
+	background: #ffc207;
+}
+.rank-hd>.progress-bar>.user-center-img{
+	position: absolute;
+	left: 3.92rem;
+	display: block;
+	width: 2.6rem;
+    height: 2.6rem;
+    border: 5px solid #0069ab;
+    border-radius: 50%;
+    overflow: hidden;
+    top: -1.06rem;
+}
+.rank-hd>.no{
+	position: absolute;
+	top: 3.2rem;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 0.373334rem;
+}
+.rank-hd>.des{
+	position: absolute;
+	top: 4rem;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 0.26667rem;
+}
+.rank-hd>.progress-bar>.num{
+	position: absolute;
+	top: -0.36rem;
+	z-index: 9;
+	display: block;
+	width: 0.8rem;
+	height: 0.973334rem;
+	background: url(../images/grade-bg.png) no-repeat;
+	background-size: contain;
+	text-align: center;
+}
+.rank-hd>.progress-bar>.num-on{
+	width: 0.8rem;
+	height: 0.8rem;
+	background: #ffc207;
+	border-radius: 50%;
+	left: 3.44rem;
+}
+.rank-hd>.progress-bar>.num-1{
+	left: 0.96rem;
+}
+.rank-hd>.progress-bar>.num-3{
+	left: 7.52rem;
+}
+.rank-hd>.progress-bar>.num-4{
+	left: 10.52rem;
+}
+.rank-hd>.progress-bar>.num-5{
+	left: 13.52rem;
+}
+.rank-hd>.progress-bar>.num>em{
+	display: inline-block;
+	width:0.64rem;
+	height: 0.64rem;
+	background: #0da8e7;
+	border-radius: 50%;
+	margin-top: 0.08rem;
+	text-align: center;
+	line-height: 0.64rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #ffffff;
+	font-size: 0.26667rem;
+}
+.rank-hd>.progress-bar>.num-on>em{
+	background: #ffc207;
+}
+.rank-hd>.progress-bar>.num>i{
+	display: block;
+	position: absolute;
+	bottom: -0.4rem;
+	text-align: center;
+	width: 100%;
+	color: #002d7f;
+	font-size: 0.26667rem;
+}
+.rank-link{
+	height: 1.2rem;
+	border-bottom: 1px solid #e5e5e5;
+	background: #fff;
+}
+.rank-link>ul>li{
+	float: left;
+	width: 50%;
+	height: 1.2rem;
+}
+.rank-link>ul>li>a{
+	display: block;
+	height: 1.2rem;
+	border-right: 1px solid #e5e5e5;
+	text-align: center;
+	line-height: 1.2rem;
+}
+.rank-link>ul>li:last-child>a{
+	border-right: none;
+}
+.rank-link>ul>li>a>span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.32rem;
+	margin: 0 0.1rem;
+}
+.rank-link>ul>li>a>i{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.426667rem;
+	height: 0.426667rem;
+}
+.rank-link>ul>li>a>i.ico-1{
+	background: url(../images/mem-ico1.png) no-repeat;
+	background-size: contain;
+}
+.rank-link>ul>li>a>i.ico-2{
+	background: url(../images/mem-ico2.png) no-repeat;
+	background-size: contain;
+}
+.rank-list{
+	background: #fff;
+	margin-top: 0.2rem;
+	padding: 0.44rem 0.24rem;
+}
+.rank-list>table{
+	width: 100%;
+	border: 1px solid #e5e5e5;
+}
+.rank-list>table th,.rank-list>table td{
+	text-align: center;
+	height: 1rem;
+	border: 1px solid #e5e5e5;
+}
+.rank-list>table th{
+	font-size: 0.373334rem;
+}
+.rank-list>table td{
+	font-size: 0.32rem;
+}
+.rank-list>table td>span.level{
+	display: inline-block;
+	height: 0.36rem;
+	line-height: 0.36rem;
+	background: #4cb786;
+	border-radius: 10px;
+	color: #fff;
+	padding: 0 0.16rem;
+	font-size: 0.26667rem;
+}
+.rank-list>.txt{
+	padding: 0.28rem 0;
+	line-height: 0.48rem;
+	color: #999999;
+	font-size: 0.32rem;
+}
+/*我的积分*/
+.score-hd{
+	width: 100%;
+	height: 5rem;
+	background: url(../images/member-grade-bg.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+}
+.score-hd>.user-center{
+	display: block;
+	margin-top: 0.44rem;
+}
+.score-hd>.user-center>.user-hd-img{
+	display: inline-block;
+	width: 2.12rem;
+	height: 2.12rem;
+	border: 5px solid #abe6c1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.score-hd>.user-center>span{
+	display: block;
+	color: #ffffff;
+	line-height: 0.68rem;
+}
+.score-hd>.num{
+	color: #fff45c;
+	padding-bottom: 0.24rem;
+}
+.score-hd>.num>.ico{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 0.373334rem;
+	height: 0.426667rem;
+	background: url(../images/mem-ico3.png) no-repeat;
+	background-size: contain;
+	margin-right: 0.05rem;
+}
+.score-hd>.num>span{
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 0.32rem;
+}
+.score-hd>.num>em{
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 0.426667rem;
+	line-height: 0.4rem;
+}
+.score-hd>.date{
+	color: #fff;
+	font-size: 0.26667rem;
+}
+.score-link{
+	height: 1.2rem;
+	border-bottom: 1px solid #e5e5e5;
+	background: #fff;
+}
+.score-link.score-link-one>ul>li{
+	width: 100%;
+}
+.score-link>ul>li{
+	float: left;
+	width: 50%;
+	height: 1.2rem;
+}
+.score-link>ul>li>a{
+	display: block;
+	height: 1.2rem;
+	border-right: 1px solid #e5e5e5;
+	text-align: center;
+	line-height: 1.2rem;
+}
+.score-link>ul>li:last-child>a{
+	border-right: none;
+}
+.score-link>ul>li>a>span{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.32rem;
+	margin: 0 0.1rem;
+}
+.score-link>ul>li>a>i{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.426667rem;
+	height: 0.426667rem;
+}
+.score-link>ul>li>a>i.ico-1{
+	background: url(../images/mem-ico4.png) no-repeat;
+	background-size: contain;
+}
+.score-link>ul>li>a>i.ico-2{
+	background: url(../images/mem-ico5.png) no-repeat;
+	background-size: contain;
+}
+.score-list{
+	margin-top: 0.2rem;
+}
+.score-list>.det{
+	display: block;
+	padding: 0 0.24rem;
+	height: 1.13334rem;
+	border-bottom: 1px solid #e5e5e5;
+	background: #fff;
+	line-height: 1.13334rem;
+	position: relative;
+}
+.score-list>.det>span{
+	display: inline-block;
+    width: 8rem;
+    font-size: 0.37333rem;
+}
+.score-list>.det>.arrow-rig-icon{
+	display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0.24rem;
+    margin-top: -0.16rem;
+    width: 0.226667rem;
+    height: 0.386667rem;
+    background: url(../images/mall-more-ico.png) no-repeat;
+    background-size: contain;
+}
+.score-list>ul{
+	background: #fff;
+	padding: 0 0.24rem;
+}
+.score-list>ul>li{
+	height: 1.466667rem;
+	border-bottom: 1px solid #e5e5e5;
+	position: relative;
+}
+.score-list>ul>li>.txt{
+	width: 8rem;
+	height: 1.466667rem;
+	display: table-cell;
+	vertical-align: middle;
+}
+.score-list>ul>li>.txt>strong{
+	color: #666666;
+	font-size: 0.32rem;
+	display: block;
+	line-height: 0.64rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 8rem;
+}
+.score-list>ul>li>.txt>span{
+	color: #c4c4c4;
+	font-size: 0.26667rem;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 8rem;
+}
+.score-list>ul>li>.num{
+	position: absolute;
+	top: 0;
+	right: 0.24rem;
+	width: 1.12rem;
+	line-height: 1.466667rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.score-list>ul>li>.num>p{
+	font-size: 0.32rem;
+}
+.score-list>ul>li>.num>p.red{
+	color: #ff5000;
+}
+.score-list>ul>li>.num>p.green{
+	color: #26ba65;
+}
+/*积分明细*/
+.score-nav{
+	background: #fff;
+	padding: 0.24rem 0rem;
+}
+.score-nav>ul{
+	width: 9.48rem;
+	margin: 0 auto;
+}
+.score-nav>ul>li{
+	float: left;
+	width: 2.68rem;
+	height: 0.72rem;
+	line-height: 0.7rem;
+	overflow: hidden;
+	margin: 0 0.24rem;
+	border-radius: 15px;
+}
+.score-nav>ul>li>a{
+	display: block;
+	border: 2px solid #f8f9fd;
+	border-radius: 15px;
+	background: #f8f9fd;
+	text-align: center;
+	font-size: 0.32rem;
+	width: 2.68rem;
+	height: 0.72rem;
+	overflow: hidden;
+}
+.score-nav>ul>li.on>a{
+	border: 2px solid #3daef0;
+	color: #3daef0;
+	background: #fff;
+}
+/*赚取积分*/
+.eranScore-hd{
+	width: 100%;
+	height: 2.56rem;
+	background: url(../images/points-bg.jpg) no-repeat;
+	background-size: cover;
+}
+.eranScore-hd>.user-center{
+	display: block;
+	padding-top: 0.36rem;
+	padding-left: 0.68rem;
+}
+.eranScore-hd>.user-center>.user-hd-img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.6rem;
+	height: 1.6rem;
+	border: 5px solid #abe6c1;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 0.4rem;
+}
+.eranScore-hd>.user-center>.txt{
+	display: inline-block;
+	vertical-align: middle;
+}
+.eranScore-hd>.user-center>.txt>.name{
+	display: block;
+	color: #fff;
+	font-size: 0.26667rem;
+	padding-bottom: 0.2rem;
+}
+.eranScore-hd>.user-center>.txt>.num{
+	color: #fff45c;
+}
+.eranScore-hd>.user-center>.txt>.num>.ico{
+	display: inline-block;
+    vertical-align: bottom;
+    width: 0.373334rem;
+    height: 0.426667rem;
+    background: url(../images/mem-ico3.png) no-repeat;
+    background-size: contain;
+    margin-right: 0.05rem;
+}
+.eranScore-hd>.user-center>.txt>.num>span{
+	display: inline-block;
+    vertical-align: bottom;
+    font-size: 0.32rem;
+}
+.eranScore-hd>.user-center>.txt>.num>em{
+	display: inline-block;
+    vertical-align: bottom;
+    font-size: 0.426667rem;
+    line-height: 0.4rem;
+}
+.task-nav{
+	height: 1.2rem;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+}
+.task-nav>ul>li{
+	float: left;
+	width: 50%;
+	height: 1.2rem;
+}
+.task-nav>ul>li>a{
+	display: block;
+    height: 1.2rem;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 0.373334rem;
+}
+.task-nav>ul>li.on>a{
+	color: #3daef0;
+}
+.task-list{
+	margin-top: 0.2rem;
+	background: #fff;
+	padding: 0 0.24rem;
+}
+.task-list li{
+	height: 1.36rem;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 1.36rem;
+	position: relative;
+}
+.task-list li:last-child{
+	border-bottom: none;
+}
+.task-list li .ico{
+	float: left;
+	display: block;
+	margin-left: 0.16rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-top: 0.28rem;
+	margin-right: 0.28rem;
+}
+.task-list li .ico-1{
+	background: url(../images/points-ico1.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-2{
+	background: url(../images/points-ico2.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-3{
+	background: url(../images/points-ico3.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-4{
+	background: url(../images/points-ico4.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-5{
+	background: url(../images/points-ico5.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-6{
+	background: url(../images/points-ico6.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-7{
+	background: url(../images/points-ico7.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-8{
+	background: url(../images/points-ico8.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-9{
+	background: url(../images/points-ico9.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-10{
+	background: url(../images/points-ico10.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-11{
+	background: url(../images/points-ico11.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-12{
+	background: url(../images/points-ico12.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-13{
+	background: url(../images/points-ico13.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-14{
+	background: url(../images/points-ico14.png) no-repeat;
+	background-size: contain;
+}
+.task-list li .ico-15{
+	background: url(../images/points-ico15.png) no-repeat;
+	background-size: contain;
+}
+.task-list li strong{
+	float: left;
+	width: 2.44rem;
+	color: #666666;
+	font-size: 0.32rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.task-list>.task-daily li span{
+	position: absolute;
+	right: 0;
+	width: 5.8rem;
+	text-align: left;
+	top: 0;
+	color: #b1b1b1;
+	font-size: 0.26667rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.task-list>.new-daily li .num{
+	float: left;
+	margin-left: 0.8rem;
+	width:2.88rem;
+	color: #ff5000;
+	font-size: 0.32rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.task-list>.new-daily li .state{
+	position: absolute;
+	display: block;
+	right: 0.24rem;
+	top: 0.32rem;
+	width: 1.88rem;
+	height: 0.72rem;
+	line-height: 0.70rem;
+	background: #f5f5f5;
+	text-align: center;
+	border-radius: 20px;
+}
+.task-list>.new-daily li .state>a{
+	display: block;
+	width: 1.88rem;
+	height: 0.72rem;
+	line-height: 0.70rem;
+	font-size: 0.32rem;
+	border: 2px solid #f5f5f5;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.task-list>.new-daily li .state>a.receive{
+	border: 2px solid #ff6600;
+	color: #ff6600;
+	background: #fff;
+}

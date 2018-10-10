@@ -1,0 +1,563 @@
+/* 线路栏目页焦点图 */
+.st-focus-banners .swiper-slide .item{
+	display: block;
+	width: 100%;
+	height: 4.266667rem;
+	position: relative;
+	font-size: 0
+}
+.st-focus-banners .swiper-slide .item img{
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+/* 全局搜索 */
+.st-search{
+	padding: 0.266667rem;
+	margin-bottom: 0.266667rem;
+    background: #fff
+}
+.st-search-box{
+	height: 1rem;
+	overflow: hidden;
+    position:relative;
+    -webkit-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    background:#eaeaea
+}
+.st-search-box .st-search-text{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+    padding: 0 0.2rem;
+    font-size: 0.373333rem;
+    background:#eaeaea;
+}
+.st-search-box .st-search-btn{
+    display:block;
+    width: 0.693333rem;
+    height: 0.693333rem;
+    position:absolute;
+    right: 0.2rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background:url("../images/faq-search-btn-icon.png") center no-repeat;
+    background-size: contain;}
+
+/* 栏目条 */
+.st-title-bar{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	padding: 0 0.4rem;
+	border-bottom: 1px solid #f3f3f3;
+	font-size: 0;
+	background: #fff
+}
+.st-title-bar .line-icon{
+	display: inline-block;
+	width: 0;
+	height: 0.48rem;
+	vertical-align: middle;
+	margin: -0.3rem 0.2rem 0 0;
+	border-left: 0.08rem solid #ff6b1a
+}
+.st-title-bar .title-txt{
+	display: inline-block;
+	font-size: 0.426667rem;
+}
+
+/* 推荐线路 */
+.st-hot-line{
+	padding-bottom: 0.4rem
+}
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{
+	margin: 0 0.06rem
+}
+.st-hot-line .item{
+	display: -webkit-box;
+	display: -moz-box;
+	padding: 0.4rem
+}
+.st-hot-line .item .pic{
+	width: 4.16rem;
+	height: 2.64rem;
+	position: relative;
+	overflow: hidden;
+	background: #e7e7e7
+}
+.st-hot-line .item .pic img{
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.st-hot-line .item .info{
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	margin-left: 0.266667rem
+}
+.st-hot-line .info .tit{
+	height: 1.066667rem;
+	line-height: 0.533333rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+	font-size: 0.373333rem
+}
+.st-hot-line .info .attr{
+	height: 0.48rem;
+	margin-top: 0.2rem;
+	overflow: hidden;
+	font-size: 0
+}
+.st-hot-line .info .attr .label{
+	color: #ff6b1a;
+	display: inline-block;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	margin-right: 0.2rem;
+	padding: 0 0.2rem;
+	border: 1px solid #ff6b1a;
+	border-radius: 0.2rem;
+	font-size: 0.32rem
+}
+.st-hot-line .info .price{
+	padding-top: 0.2rem;
+}
+.st-hot-line .info .price .jg,
+.st-hot-line .info .price .dx{
+	color: #ff6b1a;
+	display: inline-block;
+	font-size: 0.32rem
+}
+.st-hot-line .info .price .jg .num{
+	font-size: 0.48rem
+}
+
+
+/* 产品列表 */
+.st-product-block{
+	margin-bottom: 0.266667rem;
+	background: #fff
+}
+.st-list-block{
+	padding: 0.2rem
+}
+.st-list-block>li{
+	float: left;
+	width: 50%;
+	padding: 0.2rem
+}
+.st-list-block .item{
+	display: block;
+}
+.st-list-block .item .pic{
+	width: 100%;
+	height: 2.8rem;
+	overflow: hidden;
+	position: relative;
+	background: #e7e7e7
+}
+.st-list-block .item .pic img{
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.st-list-block .item .tit{
+	height: 0.48rem;
+	line-height: 0.48rem;
+	margin-top: 0.15rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 0.32rem
+}
+.st-list-block .item .tit.double{
+	height: 0.96rem;
+	white-space: normal;
+	text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.st-list-block .item .tit .md{
+	color: #999;
+	font-size: 0.32rem;
+}
+.st-list-block .item .price{
+	padding-top: 0.1rem;
+}
+.st-list-block .item .price .jg,
+.st-list-block .item .price .dx{
+	color: #ff6b1a;
+	display: inline-block;
+	height: 0.533333rem;
+	line-height: 0.533333rem;
+	font-size: 0.32rem
+}
+.st-list-block .item .price .jg .num{
+	font-size: 0.426667rem
+}
+.st-more-bar{
+	padding: 0.266667rem 0;
+	text-align: center;
+}
+.st-more-bar .more-link{
+	color: #ff6b1a;
+	display: inline-block;
+	width: 2.92rem;
+	line-height: 0.88rem;
+	border: 1px solid #e9e9e9;
+	border-radius: 0.08rem;
+	font-size: 0.373333rem;
+}
+
+/* 线路详情 */
+.st-photo-container .swiper-slide .item{
+	display: block;
+	width: 100%;
+	height: 5rem;
+	position: relative;
+	overflow: hidden;
+	font-size: 0
+}
+.st-photo-container .swiper-slide .item img{
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.line-show-top{
+	padding: 0.4rem 0.4rem 0;
+	margin-bottom: 0.266667rem;
+	background: #fff
+}
+.line-show-top .tit{
+	line-height: 0.6rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.426667rem
+}
+.line-show-top .txt{
+	color: #999;
+	line-height: 0.48rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.32rem
+}
+.line-show-top .attr{
+	height: 0.48rem;
+	margin-bottom: 0.2rem;
+	overflow: hidden;
+	font-size: 0
+}
+.line-show-top .attr .label{
+	color: #ff6b1a;
+	display: inline-block;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	margin-right: 0.2rem;
+	padding: 0 0.2rem;
+	border: 1px solid #ff6b1a;
+	border-radius: 0.2rem;
+	font-size: 0.32rem
+}
+.line-show-top .price{
+	margin-bottom: 0.2rem
+}
+.line-show-top .price .jg,
+.line-show-top .price .dx{
+	color: #ff6b1a;
+	display: inline-block;
+	font-size: 0.32rem
+}
+.line-show-top .price .jg .num{
+	font-size: 0.64rem
+}
+.line-show-top .price .del{
+	color: #999;
+	display: inline-block;
+	margin-left: 0.4rem;
+	font-size: 0.32rem
+}
+.line-show-top .info{
+	display: -webkit-box;
+	display: -moz-box;
+	margin: 0 -0.4rem;
+	border-top: 1px solid #f3f3f3;
+}
+.line-show-top .info .item{
+	width: 25%;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	padding: 0.266667rem 0;
+	text-align: center;
+	position: relative;
+	border-right: 1px solid #f3f3f3;
+}
+.line-show-top .info .item:last-child{
+	border-right: 0;
+}
+.line-show-top .info .item.link{
+	padding-right: 0.4rem;
+}
+.line-show-top .info .item .num{
+	display: block;
+	color: #ff931b;
+	font-size: 0.48rem
+}
+.line-show-top .info .item .unit{
+	color: #666;
+	display: block;
+	font-size: 0.32rem
+}
+.line-show-top .info .item .more-icon{
+	display: inline-block;
+	width: 0.25rem;
+	height: 0.25rem;
+	position: absolute;
+	top: 50%;
+	right: 0.4rem;
+	-webkit-transform: rotate(45deg) translateY(-40%);
+	transform: rotate(45deg) translateY(-40%);
+	border-top: 1px solid #a2a2a2;
+	border-right: 1px solid #a2a2a2
+}
+
+.line-info-container{
+	margin-bottom: 0.266667rem;
+	background: #fff
+}
+.line-info-bar{
+	height: 1.2rem;
+    line-height: 1.2rem;
+    padding: 0 0.4rem;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 0;
+    background: #fff;
+}
+.line-info-bar .title-txt{
+	display: inline-block;
+	padding: 0 0.2rem;
+	position: relative;
+	font-size: 0.426667rem
+}
+.line-info-bar .title-txt:after{
+	content: "";
+	display: block;
+	height: 0;
+	border-bottom: 2px solid #22a4e0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.line-info-wrapper{
+	padding: 0.4rem
+}
+.line-info-wrapper *{
+	max-width: 100%
+}
+.line-info-list{
+	padding: 0.4rem;
+}
+.line-info-list .item{
+	color: #999;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 0.373333rem
+}
+.line-info-list .item .hd{
+	color: #333
+}
+.line-choose-date{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	padding: 0 0.4rem;
+	position: relative;
+	border-top: 1px solid #f3f3f3;
+	font-size: 0.373333rem
+}
+.line-choose-date .car-icon{
+	display: inline-block;
+	width: 0.48rem;
+	height: 0.48rem;
+	vertical-align: middle;
+	margin: -0.1rem 0.2rem 0 0;
+	background: url("../images/gw_car.png") center no-repeat;
+	background-size: contain;
+}
+.line-choose-date .more-icon{
+	display: inline-block;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 50%;
+    right: 0.4rem;
+    -webkit-transform: rotate(45deg) translateY(-50%);
+    transform: rotate(45deg) translateY(-50%);
+    border-top: 1px solid #a2a2a2;
+    border-right: 1px solid #a2a2a2;
+}
+
+.line-info-content{
+	color: #666;
+	overflow: hidden;
+}
+.line-info-content *{
+	max-width: 100%
+}
+
+.eachday{
+
+}
+.eachday .day-num{
+	margin-bottom: 0.266667rem
+}
+.eachday .day-num:last-child{
+	margin-bottom: 0
+}
+.eachday .day-num .hd{
+
+	margin-bottom: 0.266667rem
+}
+.eachday .hd .day-on{
+	color: #22a4e0;
+	display: block;
+	margin-bottom: 0.1rem;
+	font-weight: bold;
+	font-size: 0.373333rem
+}
+.eachday .hd .dest{
+	color: #666;
+	display: block;
+	font-size: 0.373333rem
+}
+.eachday .hg{
+	padding: 0.4rem;
+	position: relative;
+	-webkit-border-radius: 0.2rem;
+	border-radius: 0.2rem;
+	background: #f3f3f3
+}
+.eachday .hg:before{
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: -0.16rem;
+	border-bottom: 0.16rem solid #f3f3f3;
+	border-left: 0.16rem solid transparent;
+	border-right: 0.16rem solid transparent;
+}
+.eachday .hg .sum{
+	padding-bottom: 0.266667rem;
+	margin-bottom: 0.266667rem;
+	border-bottom: 1px solid #e6e6e6
+}
+.eachday .hg .sum:last-child{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 0
+}
+.eachday .hg .sum dt.yc, 
+.eachday .hg .sum dt.zs, 
+.eachday .hg .sum dt.jt, 
+.eachday .hg .sum dt.xc{
+	font-size: 0.373333rem;
+}
+.eachday .hg .sum dt.yc .icon, 
+.eachday .hg .sum dt.zs .icon, 
+.eachday .hg .sum dt.jt .icon, 
+.eachday .hg .sum dt.xc .icon{
+	display: inline-block;
+	width: 0.6rem;
+	height: 0.6rem;
+	vertical-align: middle;
+	margin: -0.08rem 0.2rem 0 0
+}
+.eachday .hg .sum dt.yc .icon{
+	background: url("../images/travel-eat-icon.png") center no-repeat;
+	background-size: contain;
+}
+.eachday .hg .sum dt.zs .icon{
+	background: url("../images/travel-hotel-icon.png") center no-repeat;
+	background-size: contain;
+}
+.eachday .hg .sum dt.jt .icon{
+	background: url("../images/travel-car-icon.png") center no-repeat;
+	background-size: contain;
+}
+.eachday .hg .sum dt.xc .icon{
+	background: url("../images/travel-walk-icon.png") center no-repeat;
+	background-size: contain;
+}
+.eachday .hg .sum dd.con{
+	color: #666;
+	line-height: 0.533333rem;
+	padding-top: 0.2rem;
+	font-size: 0.32rem
+}
+.eachday .hg .sum dd.con .tc{
+	display: block;
+	color: #666;
+	padding: 0.08rem 0;
+	font-size: 0.32rem
+}
+.eachday .hg .sum dd.con .gj{
+	margin-right: 0.4rem
+}
+.eachday .spot{
+	margin-top: 0.266667rem
+}
+.eachday .spot .item{
+	display: block;
+	height: 5.72rem;
+	position: relative;
+	overflow: hidden;
+	background: #e7e7e7
+}
+.eachday .spot .item img{
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.eachday .spot .item .bt{
+	color: #fff;
+	display: block;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	padding: 0 0.2rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	font-size: 0.32rem;
+	background: rgba(0,0,0,.3)
+}

@@ -1,0 +1,27 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+return array(
+	'alpha'         => ':field 只能是字母',
+	'alpha_dash'    => ':field 只能是字母数字和符号',
+	'alpha_numeric' => ':field 只能是字母和数字',
+	'color'         => ':field 必须是颜色',
+	'credit_card'   => ':field 必须是银行卡',
+	'date'          => ':field 必须是日期',
+	'decimal'       => ':field 必须是小数',
+	'digit'         => ':field 必须整数',
+	'email'         => ':field 必须是邮件地址',
+	'email_domain'  => ':field 必须是有效的邮件地址',
+	'equals'        => ':field 必须与 :param2相等',
+	'exact_length'  => ':field must be exactly :param2 characters long',
+	'in_array'      => ':field must be one of the available options',
+	'ip'            => ':field 必须是IP地址',
+	'matches'       => ':field 必须和参数 :param2相同',
+	'min_length'    => ':field 最小长度不能小于 :param2 ',
+	'max_length'    => ':field 最大长度不能超过 :param2 ',
+	'not_empty'     => ':field 不能为空',
+	'numeric'       => ':field 必须是数字',
+	'phone'         => ':field 必须是手机号',
+	'range'         => ':field 必须在 :param2 :param3之间',
+	'regex'         => ':field 不满足格式',
+	'url'           => ':field 必须是一个url地址',
+);

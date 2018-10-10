@@ -1,0 +1,223 @@
+/* 全局搜索 */
+.st-search{
+	padding: 0.266667rem;
+    background: #f0f0f0
+}
+.st-search-box{
+	height: 1rem;
+	overflow: hidden;
+    position:relative;
+    -webkit-border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    background:#fff
+}
+.st-search-box .st-search-text{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+    padding: 0 1rem 0 0.2rem;
+    font-size: 0.373333rem;
+    background:#fff;
+}
+.st-search-box .st-search-btn{
+    display:block;
+    width: 0.693333rem;
+    height: 0.693333rem;
+    position:absolute;
+    right: 0.2rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background:url("../images/faq-search-btn-icon.png") center no-repeat;
+    background-size: contain;}
+
+.swiper-container{
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+}
+.swiper-wrapper{
+    padding: 0.16rem 0.133333rem
+}
+.swiper-slide {
+    color: #666;
+    width: auto !important;
+    font-size: 0.32rem;
+    line-height: 1rem;
+    padding: 0 0.4rem;
+    margin: 0 0.133333rem;
+    font-size: 0.373333rem;
+    border-radius: 0.08rem;
+    -webkit-border-radius: 0.08rem;
+    background: #f8f9fc
+}
+.swiper-slide-on{
+    color: #3daef0;
+    background: #e2f4ff
+}
+
+/* 搜索列表 */
+.search-content-area{
+    background: #fff
+}
+.search-list-area{
+    padding: 0 0.4rem;
+}
+.search-list-area>li{
+    border-bottom: 1px solid #e5e5e5
+}
+.search-list-area>li:last-child{
+    border-bottom: 0
+}
+.search-list-area .item{
+    padding: 0.4rem 0;
+    display: -webkit-box;
+    display: -moz-box;
+}
+.search-list-area .item .pic{
+    width: 2.933334rem;
+    height: 2rem;
+    overflow: hidden;
+    position: relative;
+}
+.search-list-area .item .pic img{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.search-list-area .item .info{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    margin-left: 0.4rem
+}
+.search-list-area .info .tit{
+    height: 0.84rem;
+    line-height: 0.42rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 0.373333rem
+}
+.search-list-area .info .alone-tit{
+    height: 0.48rem;
+    line-height: 0.48rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.373333rem
+}
+.search-list-area .info .attr{
+    height: 0.426667rem;
+    margin-top: 0.16rem;
+    overflow: hidden;
+    font-size: 0
+}
+.search-list-area .info .attr .label{
+    display: inline-block;
+    color: #fe9170;
+    height: 0.426667rem;
+    line-height: 0.426667rem;
+    padding: 0 0.08rem;
+    margin-right: 0.08rem;
+    border-radius: 0.08rem;
+    -webkit-border-radius: 0.08rem;
+    border: 1px solid #fe9170;
+    font-size: 0.32rem
+}
+.search-list-area .info .attr .label:last-child{
+    margin-right: 0
+}
+.search-list-area .info .other{
+    margin-top: 0.2rem
+}
+.search-list-area .info .data{
+    color: #999;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    margin-right: 0.4rem;
+    font-size: 0.32rem
+}
+.search-list-area .info .data:last-child{
+    margin-right: 0
+}
+.search-list-area .info .pri{
+    color: #999;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.32rem
+}
+.search-list-area .info .pri .jg{
+    color: #f60
+}
+.search-list-area .info .pri .jg .num{
+    font-size: 0.373333rem
+}
+.search-list-area .info .txt{
+    color: #666;
+    height: 0.8rem;
+    line-height: 0.4rem;
+    margin-top: 0.1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 0.32rem
+}
+
+
+.search-list-area .info .art-data{
+    margin-top: 0.08rem
+}
+.search-list-area .info .art-data>span{
+    color: #a9b7b7;
+    height: 0.48rem;
+    line-height: 0.48rem;
+    font-size: 0.32rem
+}
+.search-list-area .info .art-data .num{
+    margin-left: 0.4rem
+}
+.search-list-area .info .art-data .pl-icon{
+    display: inline-block;
+    width: 0.293334rem;
+    height: 0.293334rem;
+    vertical-align: middle;
+    margin: -0.08rem 0.08rem 0 0;
+    background: url("../images/info-ico.png") no-repeat;
+    background-size: contain;
+}
+.search-list-area .info .art-data .yl-icon{
+    display: inline-block;
+    width: 0.333334rem;
+    height: 0.24rem;
+    margin: -0.04rem 0.08rem 0 0;
+    background: url("../images/read-ico.png") no-repeat;
+    background-size: contain;
+}
+
+
+.search-list-area .info .dy-jl{
+    height: 0.48rem;
+    overflow: hidden;
+    font-size: 0
+}
+.search-list-area .info .dy-jl .label{
+    color: #666;
+    margin-right: 0.4rem;
+    font-size: 0.32rem
+}
+.search-list-area .info .dy-lg{
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.32rem
+}
+
+

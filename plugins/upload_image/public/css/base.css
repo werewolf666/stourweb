@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*重置CSS*/
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box}
+body,
+html{
+	width:100%;
+	height:100%;
+	font-size:12px}
+body,
+html,
+div,
+blockquote,
+img,
+label,
+p,
+h1,h2,h3,h4,h5,h6,
+pre,
+ul,ol,li,
+dl,dt,dd,
+form,
+a,
+fieldset,
+input,
+th,
+td{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:none;
+	font-family:'微软雅黑'}
+select,textarea{
+	outline:none;
+	font-family:'微软雅黑'}
+table {
+	border-collapse:collapse;
+	border-spacing:0}
+fieldset,img {
+	border:0}
+address,caption,cite,code,dfn,em,strong,th,var{
+	font-style:normal;
+	font-weight:normal}
+ol,ul {
+	list-style:none}
+a{
+	color:#333;
+	text-decoration:none}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal}
+q:before,q:after{
+	content:'.';
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden}
+abbr,acronym{
+	border:0}
+
+
+.fl{
+	float:left}
+.fr{
+	float:right}
+.ml-10{
+	margin-left:10px}
+.ml-20{
+	margin-left:20px}
+.color-grey{
+	color:#333}
+.color-red{
+	color:#f00}
+.color-green{
+	color:#008000}

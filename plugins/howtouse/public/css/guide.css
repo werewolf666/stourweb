@@ -1,0 +1,196 @@
+.novice-guide-page{
+
+}
+.novice-guide-box{
+    padding: 25px 30px;
+}
+.novice-guide-box .tit{
+    color: #006498;
+    font-weight: normal;
+    font-size: 16px;
+}
+.novice-guide-box .txt{
+    color: #666;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.novice-guide-container{
+
+}
+.novice-guide-wrapper{
+    padding: 0 20px;
+}
+.novice-guide-wrapper>li{
+    border-bottom: 1px solid #f6f6f6;
+}
+.novice-guide-wrapper>li .item{
+    display: block;
+    padding: 20px 10px;
+}
+.novice-guide-wrapper>li .item:hover{
+    background: #fafafa
+}
+.novice-guide-wrapper>li:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+.novice-guide-wrapper .num-icon{
+    color: #fff;
+    float: left;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight:bold;
+    font-family: Arial, "Microsoft YaHei", "宋体", Helvetica, sans-serif;
+    background: #22cb64;
+}
+.novice-guide-wrapper .info{
+    padding: 0 300px 0 64px;
+}
+.novice-guide-wrapper .info .tit{
+    color: #006498;
+    font-size: 15px;
+    font-weight: normal;
+}
+.novice-guide-wrapper .info .txt{
+    color: #888;
+    padding-top: 5px;
+}
+
+
+
+.novice-guide-layer-box{
+    width: 550px;
+    height: 320px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10002;
+    margin: -160px 0 0 -275px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+}
+.novice-guide-title-icon{
+    height: 101px;
+    background: url("../images/novice-guide-title-icon.jpg") center no-repeat;
+}
+.novice-guide-content{
+    padding: 15px 0 30px;
+    text-align: center;
+}
+.novice-guide-content .tit{
+    color: #0bb7f2;
+    font-size: 16px;
+    font-weight: normal;
+}
+.novice-guide-content .txt{
+    color: #333;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.novice-guide-read{
+    text-align: center;
+    font-size: 0;
+}
+.novice-guide-read .guide-link,
+.novice-guide-read .close-btn{
+    display: inline-block;
+    width: 92px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.novice-guide-read .guide-link{
+    color: #fff;
+    background: #38aae5;
+}
+.novice-guide-read .close-btn{
+    color: #666;
+    background: #dbdbdb;
+}
+
+.check-block{
+    padding-top: 20px;
+    text-align: right;
+}
+.check-block .check-lable{
+    display: inline-block;
+    color: #666;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.check-block .check-lable .check-icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: -3px 5px 0 0;
+    background: url("../images/guide-check-icon.png") no-repeat 0 0;
+}
+.check-block .check-lable .check-icon.checked{
+    background: url("../images/guide-check-icon.png") no-repeat 0 -17px;
+}
+
+.remind-msg-tip{
+    color: #f14323;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 8px;
+    font-size: 13px;
+    position: absolute;
+    top: 40px;
+    right: 138px;
+    z-index: 10005;
+    /*-webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #f5ddb9;
+    background: #fff9f0;
+}
+.remind-msg-tip:before{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    vertical-align: middle;
+    margin: -5px 5px 0 0;
+    background: url("../images/read-guide-icon.png") no-repeat 0 -16px;
+}
+.remind-msg-tip:after{
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 6px;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -5px;
+    background: url("../images/read-guide-icon.png") no-repeat 0 0;
+}
